@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_crossovertest" default="compile.module.crossovertest">
+  <dirname property="module.crossovertest.basedir" file="${ant.file.module_crossovertest}"/>
+  
+  <property name="module.jdk.home.crossovertest" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.crossovertest" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.crossovertest" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.crossovertest" value="-encoding UTF-8 -source 1.8 -target 1.8 ${compiler.args}"/>
+  
+  <property name="crossovertest.output.dir" value="${module.crossovertest.basedir}/../out/production/CrossoverTest"/>
+  <property name="crossovertest.testoutput.dir" value="${module.crossovertest.basedir}/../out/test/CrossoverTest"/>
+  
+  <path id="crossovertest.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="crossovertest.module.production.classpath">
+    <path refid="${module.jdk.classpath.crossovertest}"/>
+    <pathelement location="${crossover.output.dir}"/>
+    <pathelement location="${geneiousfiles.output.dir}"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jdom.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jebl.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/GeneiousPublicAPI.jar"/>
+    <path refid="library.libfortesting.classpath"/>
+    <pathelement location="${testutils.output.dir}"/>
+    <fileset dir="${basedir}/CrossoverTest/lib">
+      <patternset refid="library.patterns"/>
+    </fileset>
+    <path refid="library.org.jsoup:jsoup:1.10.3.classpath"/>
+    <path refid="library.allgag.classpath"/>
+  </path>
+  
+  <path id="crossovertest.runtime.production.module.classpath">
+    <pathelement location="${crossovertest.output.dir}"/>
+    <path refid="crossover.runtime.production.module.classpath"/>
+    <path refid="geneiousfiles.runtime.production.module.classpath"/>
+    <path refid="library.libfortesting.classpath"/>
+    <path refid="testutils.runtime.production.module.classpath"/>
+    <fileset dir="${basedir}/CrossoverTest/lib">
+      <patternset refid="library.patterns"/>
+    </fileset>
+    <path refid="library.org.jsoup:jsoup:1.10.3.classpath"/>
+    <path refid="library.allgag.classpath"/>
+  </path>
+  
+  <path id="crossovertest.module.classpath">
+    <path refid="${module.jdk.classpath.crossovertest}"/>
+    <pathelement location="${crossovertest.output.dir}"/>
+    <pathelement location="${crossover.testoutput.dir}"/>
+    <pathelement location="${crossover.output.dir}"/>
+    <pathelement location="${geneiousfiles.testoutput.dir}"/>
+    <pathelement location="${geneiousfiles.output.dir}"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jdom.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jebl.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/GeneiousPublicAPI.jar"/>
+    <path refid="library.libfortesting.classpath"/>
+    <pathelement location="${testutils.testoutput.dir}"/>
+    <pathelement location="${testutils.output.dir}"/>
+    <fileset dir="${basedir}/CrossoverTest/lib">
+      <patternset refid="library.patterns"/>
+    </fileset>
+    <path refid="library.org.jsoup:jsoup:1.10.3.classpath"/>
+    <path refid="library.allgag.classpath"/>
+  </path>
+  
+  <path id="crossovertest.runtime.module.classpath">
+    <pathelement location="${crossovertest.testoutput.dir}"/>
+    <pathelement location="${crossovertest.output.dir}"/>
+    <path refid="crossover.runtime.module.classpath"/>
+    <path refid="geneiousfiles.runtime.module.classpath"/>
+    <path refid="library.libfortesting.classpath"/>
+    <path refid="testutils.runtime.module.classpath"/>
+    <fileset dir="${basedir}/CrossoverTest/lib">
+      <patternset refid="library.patterns"/>
+    </fileset>
+    <path refid="library.org.jsoup:jsoup:1.10.3.classpath"/>
+    <path refid="library.allgag.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.crossovertest">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.crossovertest">
+    <patternset refid="excluded.from.module.crossovertest"/>
+  </patternset>
+  
+  <path id="crossovertest.module.sourcepath">
+    <dirset dir="${module.crossovertest.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.crossovertest" depends="compile.module.crossovertest.production,compile.module.crossovertest.tests" description="Compile module CrossoverTest"/>
+  
+  <target name="compile.module.crossovertest.production" depends="register.custom.compilers,compile.module.crossover,compile.module.geneiousfiles,compile.module.testutils" description="Compile module CrossoverTest; production classes">
+    <mkdir dir="${crossovertest.output.dir}"/>
+    <javac2 destdir="${crossovertest.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.crossovertest}/javac">
+      <compilerarg line="${compiler.args.crossovertest}"/>
+      <bootclasspath refid="crossovertest.module.bootclasspath"/>
+      <classpath refid="crossovertest.module.production.classpath"/>
+      <src refid="crossovertest.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.crossovertest"/>
+    </javac2>
+    
+    <copy todir="${crossovertest.output.dir}">
+      <fileset dir="${module.crossovertest.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.crossovertest.tests" depends="register.custom.compilers,compile.module.crossovertest.production" description="compile module CrossoverTest; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.crossovertest" description="cleanup module">
+    <delete dir="${crossovertest.output.dir}"/>
+    <delete dir="${crossovertest.testoutput.dir}"/>
+  </target>
+</project>

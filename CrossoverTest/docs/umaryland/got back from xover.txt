@@ -1,0 +1,18 @@
+Quick Statistics:
+
+Crossover: 9 ± 0 per chimera    Point mutations: 0 ± 0 per chimera    (Mean ± S.D.)
+
+Figure legend: Library parents are depicted in different colours in order of entry of the parents. Large dots represent 100% parental match (i.e. the position in question matches only one parent) and small dots represent more than one parental match (i.e. the position matches more than one parent) at each position. The solid line for each chimera represents the library parents identified within the sequence between crossovers. A set of thin horizontal parallel lines between crossovers indicates multiple parents match at an equal probability. A mutation is recorded as a plus sign when a position of a chimera does not match the corresponding position in any parental sequence. A vertical spike indicates a fast single position switch between parents. A horizontal black bar indicates a fragment insertion/deletion.
+
+Graph loading...
+Measurement of Levenshtein Distance and Effective Mutation
+
+Levenshtein distance measures sequence difference between mutants and parents, i.e. minimum point mutations required to convert a parent into a mutant. It indicates the closeness between mutants and parents.
+Effective mutation (underlined value) is the minimum point mutations required to back-mutate a mutant to its closest parent, i.e. the shortest Levenshtein distance to parents. It indicates the closest parent and the actual diversity introduced.
+
+wt2	wt5	wt6
+chimera	419	872	42
+
+Download the crossover graph in BMP format
+Download the crossover analysis dataset
+Total execution time: 2.496 seconds

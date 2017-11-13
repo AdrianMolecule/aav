@@ -1,0 +1,9 @@
+
+jpg or png image or swg (keeps the fonts)
+fonts: 13,13,50,50
+
+Outline Bases
+preview 50%
+
+
+and crossover size in graphs=700

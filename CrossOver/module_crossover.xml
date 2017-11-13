@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_crossover" default="compile.module.crossover">
+  <dirname property="module.crossover.basedir" file="${ant.file.module_crossover}"/>
+  
+  <property name="module.jdk.home.crossover" value="${jdk.home.1.8}"/>
+  <property name="module.jdk.bin.crossover" value="${jdk.bin.1.8}"/>
+  <property name="module.jdk.classpath.crossover" value="jdk.classpath.1.8"/>
+  
+  <property name="compiler.args.crossover" value="-encoding UTF-8 -source 1.8 -target 1.8 ${compiler.args}"/>
+  
+  <property name="crossover.output.dir" value="${module.crossover.basedir}/../out/production/CrossOver"/>
+  <property name="crossover.testoutput.dir" value="${module.crossover.basedir}/../out/test/CrossOver"/>
+  
+  <path id="crossover.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="crossover.module.production.classpath">
+    <path refid="${module.jdk.classpath.crossover}"/>
+    <path refid="library.allgag.classpath"/>
+    <pathelement location="${geneiousfiles.output.dir}"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jdom.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jebl.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/GeneiousPublicAPI.jar"/>
+  </path>
+  
+  <path id="crossover.runtime.production.module.classpath">
+    <pathelement location="${crossover.output.dir}"/>
+    <path refid="library.allgag.classpath"/>
+    <path refid="geneiousfiles.runtime.production.module.classpath"/>
+  </path>
+  
+  <path id="crossover.module.classpath">
+    <path refid="${module.jdk.classpath.crossover}"/>
+    <pathelement location="${crossover.output.dir}"/>
+    <path refid="library.allgag.classpath"/>
+    <pathelement location="${geneiousfiles.testoutput.dir}"/>
+    <pathelement location="${geneiousfiles.output.dir}"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jdom.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jebl.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/GeneiousPublicAPI.jar"/>
+  </path>
+  
+  <path id="crossover.runtime.module.classpath">
+    <pathelement location="${crossover.testoutput.dir}"/>
+    <pathelement location="${crossover.output.dir}"/>
+    <path refid="library.allgag.classpath"/>
+    <path refid="geneiousfiles.runtime.module.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.crossover">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.crossover">
+    <patternset refid="excluded.from.module.crossover"/>
+  </patternset>
+  
+  <path id="crossover.module.sourcepath">
+    <dirset dir="${module.crossover.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.crossover" depends="compile.module.crossover.production,compile.module.crossover.tests" description="Compile module CrossOver"/>
+  
+  <target name="compile.module.crossover.production" depends="register.custom.compilers,compile.module.geneiousfiles" description="Compile module CrossOver; production classes">
+    <mkdir dir="${crossover.output.dir}"/>
+    <javac2 destdir="${crossover.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.crossover}/javac">
+      <compilerarg line="${compiler.args.crossover}"/>
+      <bootclasspath refid="crossover.module.bootclasspath"/>
+      <classpath refid="crossover.module.production.classpath"/>
+      <src refid="crossover.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.crossover"/>
+    </javac2>
+    
+    <copy todir="${crossover.output.dir}">
+      <fileset dir="${module.crossover.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.crossover.tests" depends="register.custom.compilers,compile.module.crossover.production" description="compile module CrossOver; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.crossover" description="cleanup module">
+    <delete dir="${crossover.output.dir}"/>
+    <delete dir="${crossover.testoutput.dir}"/>
+  </target>
+</project>

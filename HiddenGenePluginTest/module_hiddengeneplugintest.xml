@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_hiddengeneplugintest" default="compile.module.hiddengeneplugintest">
+  <dirname property="module.hiddengeneplugintest.basedir" file="${ant.file.module_hiddengeneplugintest}"/>
+  
+  <property name="module.jdk.home.hiddengeneplugintest" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.hiddengeneplugintest" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.hiddengeneplugintest" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.hiddengeneplugintest" value="-encoding UTF-8 -source 1.8 -target 1.8 ${compiler.args}"/>
+  
+  <property name="hiddengeneplugintest.output.dir" value="${module.hiddengeneplugintest.basedir}/../out/production/HiddenGenePluginTest"/>
+  <property name="hiddengeneplugintest.testoutput.dir" value="${module.hiddengeneplugintest.basedir}/../out/test/HiddenGenePluginTest"/>
+  
+  <path id="hiddengeneplugintest.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="hiddengeneplugintest.module.production.classpath">
+    <path refid="${module.jdk.classpath.hiddengeneplugintest}"/>
+    <path refid="library.libfortesting.classpath"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/CryptoUtilities.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/EccpressoAll.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/GeneiousPublicAPI.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/MacOsIntegration.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/MaskedShellFolderManager.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/ObjCBridge.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/PrivateAPI.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/UsageTrackingShared.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/WindowsIntegration.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/activation.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-anim.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-awt-util.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-bridge.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-codec.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-css.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-dom.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-ext.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-gvt.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-parser.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-script.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-svg-dom.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-svggen.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-transcoder.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-util.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-xml.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/bcpg-jdk15on-147.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/bcprov-jdk15on-147.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/biojava-1.5.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/bytecode.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/common.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/commons-cli.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/commons-collections-2.1.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/commons-compress-1.4.1.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/commons-dbcp-1.1.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/commons-lang3-3.3.2.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/commons-math3-3.5.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/commons-net-1.4.1.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/commons-pool-1.1.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/crypto.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/dynclass.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/epsgraphics.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/flexlm.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/flexnetActivation.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/flexnetInstallerHelper.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/freehep-graphics2d-2.1.1.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/freehep-graphicsio-2.1.1.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/freehep-graphicsio-emf-2.1.1.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/freehep-graphicsio-java-2.1.1.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/freehep-graphicsio-swf-2.1.1.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/freehep-io-2.0.2.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/freehep-util-2.0.2.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/gag.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/geneiouscliapi-10.0.1-SNAPSHOT.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/glazedlists-1.6.0_java15.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/guava-15.0.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/i4jruntime.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jackson-annotations-2.6.5.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jackson-core-2.6.5.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jackson-databind-2.6.5.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jakarta-oro-2.0.8.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jakarta-regexp-1.4.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/javassist-3.18.2-GA.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jcommander.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jdom-contrib.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jdom.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jebl.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jna-4.1.0.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jna-platform-4.1.0.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jsr305-1.3.9.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/juniversalchardet-1.0.3.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/log4j-1.2.17.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/lucene-core-2.9.3.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/mail.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/org-netbeans-swing-outline.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/pdf-transcoder.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/piccolo2d-core-1.3.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/piccolo_xml.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/sigar.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/talkbackShared.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/truezip-6.8.3.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/webservices-api.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/webservices-rt.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/xml-apis-ext.jar"/>
+    <pathelement location="${directedevolutionplugin.output.dir}"/>
+    <pathelement location="${testutils.output.dir}"/>
+  </path>
+  
+  <path id="hiddengeneplugintest.runtime.production.module.classpath">
+    <pathelement location="${hiddengeneplugintest.output.dir}"/>
+    <path refid="library.libfortesting.classpath"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/CryptoUtilities.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/EccpressoAll.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/GeneiousPublicAPI.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/MacOsIntegration.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/MaskedShellFolderManager.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/ObjCBridge.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/PrivateAPI.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/UsageTrackingShared.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/WindowsIntegration.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/activation.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-anim.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-awt-util.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-bridge.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-codec.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-css.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-dom.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-ext.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-gvt.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-parser.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-script.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-svg-dom.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-svggen.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-transcoder.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-util.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-xml.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/bcpg-jdk15on-147.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/bcprov-jdk15on-147.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/biojava-1.5.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/bytecode.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/common.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/commons-cli.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/commons-collections-2.1.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/commons-compress-1.4.1.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/commons-dbcp-1.1.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/commons-lang3-3.3.2.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/commons-math3-3.5.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/commons-net-1.4.1.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/commons-pool-1.1.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/crypto.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/dynclass.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/epsgraphics.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/flexlm.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/flexnetActivation.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/flexnetInstallerHelper.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/freehep-graphics2d-2.1.1.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/freehep-graphicsio-2.1.1.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/freehep-graphicsio-emf-2.1.1.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/freehep-graphicsio-java-2.1.1.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/freehep-graphicsio-swf-2.1.1.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/freehep-io-2.0.2.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/freehep-util-2.0.2.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/gag.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/geneiouscliapi-10.0.1-SNAPSHOT.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/glazedlists-1.6.0_java15.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/guava-15.0.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/i4jruntime.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jackson-annotations-2.6.5.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jackson-core-2.6.5.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jackson-databind-2.6.5.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jakarta-oro-2.0.8.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jakarta-regexp-1.4.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/javassist-3.18.2-GA.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jcommander.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jdom-contrib.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jdom.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jebl.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jna-4.1.0.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jna-platform-4.1.0.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jsr305-1.3.9.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/juniversalchardet-1.0.3.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/log4j-1.2.17.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/lucene-core-2.9.3.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/mail.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/org-netbeans-swing-outline.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/pdf-transcoder.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/piccolo2d-core-1.3.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/piccolo_xml.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/sigar.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/talkbackShared.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/truezip-6.8.3.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/webservices-api.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/webservices-rt.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/xml-apis-ext.jar"/>
+    <path refid="directedevolutionplugin.runtime.production.module.classpath"/>
+    <path refid="testutils.runtime.production.module.classpath"/>
+  </path>
+  
+  <path id="hiddengeneplugintest.module.classpath">
+    <path refid="${module.jdk.classpath.hiddengeneplugintest}"/>
+    <pathelement location="${hiddengeneplugintest.output.dir}"/>
+    <path refid="library.libfortesting.classpath"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/CryptoUtilities.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/EccpressoAll.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/GeneiousPublicAPI.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/MacOsIntegration.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/MaskedShellFolderManager.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/ObjCBridge.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/PrivateAPI.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/UsageTrackingShared.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/WindowsIntegration.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/activation.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-anim.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-awt-util.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-bridge.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-codec.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-css.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-dom.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-ext.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-gvt.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-parser.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-script.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-svg-dom.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-svggen.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-transcoder.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-util.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-xml.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/bcpg-jdk15on-147.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/bcprov-jdk15on-147.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/biojava-1.5.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/bytecode.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/common.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/commons-cli.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/commons-collections-2.1.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/commons-compress-1.4.1.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/commons-dbcp-1.1.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/commons-lang3-3.3.2.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/commons-math3-3.5.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/commons-net-1.4.1.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/commons-pool-1.1.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/crypto.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/dynclass.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/epsgraphics.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/flexlm.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/flexnetActivation.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/flexnetInstallerHelper.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/freehep-graphics2d-2.1.1.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/freehep-graphicsio-2.1.1.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/freehep-graphicsio-emf-2.1.1.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/freehep-graphicsio-java-2.1.1.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/freehep-graphicsio-swf-2.1.1.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/freehep-io-2.0.2.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/freehep-util-2.0.2.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/gag.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/geneiouscliapi-10.0.1-SNAPSHOT.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/glazedlists-1.6.0_java15.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/guava-15.0.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/i4jruntime.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jackson-annotations-2.6.5.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jackson-core-2.6.5.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jackson-databind-2.6.5.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jakarta-oro-2.0.8.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jakarta-regexp-1.4.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/javassist-3.18.2-GA.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jcommander.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jdom-contrib.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jdom.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jebl.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jna-4.1.0.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jna-platform-4.1.0.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jsr305-1.3.9.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/juniversalchardet-1.0.3.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/log4j-1.2.17.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/lucene-core-2.9.3.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/mail.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/org-netbeans-swing-outline.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/pdf-transcoder.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/piccolo2d-core-1.3.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/piccolo_xml.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/sigar.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/talkbackShared.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/truezip-6.8.3.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/webservices-api.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/webservices-rt.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/xml-apis-ext.jar"/>
+    <pathelement location="${directedevolutionplugin.testoutput.dir}"/>
+    <pathelement location="${directedevolutionplugin.output.dir}"/>
+    <pathelement location="${testutils.testoutput.dir}"/>
+    <pathelement location="${testutils.output.dir}"/>
+  </path>
+  
+  <path id="hiddengeneplugintest.runtime.module.classpath">
+    <pathelement location="${hiddengeneplugintest.testoutput.dir}"/>
+    <pathelement location="${hiddengeneplugintest.output.dir}"/>
+    <path refid="library.libfortesting.classpath"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/CryptoUtilities.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/EccpressoAll.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/GeneiousPublicAPI.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/MacOsIntegration.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/MaskedShellFolderManager.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/ObjCBridge.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/PrivateAPI.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/UsageTrackingShared.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/WindowsIntegration.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/activation.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-anim.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-awt-util.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-bridge.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-codec.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-css.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-dom.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-ext.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-gvt.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-parser.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-script.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-svg-dom.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-svggen.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-transcoder.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-util.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/batik-xml.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/bcpg-jdk15on-147.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/bcprov-jdk15on-147.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/biojava-1.5.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/bytecode.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/common.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/commons-cli.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/commons-collections-2.1.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/commons-compress-1.4.1.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/commons-dbcp-1.1.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/commons-lang3-3.3.2.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/commons-math3-3.5.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/commons-net-1.4.1.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/commons-pool-1.1.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/crypto.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/dynclass.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/epsgraphics.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/flexlm.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/flexnetActivation.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/flexnetInstallerHelper.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/freehep-graphics2d-2.1.1.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/freehep-graphicsio-2.1.1.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/freehep-graphicsio-emf-2.1.1.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/freehep-graphicsio-java-2.1.1.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/freehep-graphicsio-swf-2.1.1.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/freehep-io-2.0.2.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/freehep-util-2.0.2.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/gag.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/geneiouscliapi-10.0.1-SNAPSHOT.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/glazedlists-1.6.0_java15.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/guava-15.0.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/i4jruntime.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jackson-annotations-2.6.5.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jackson-core-2.6.5.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jackson-databind-2.6.5.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jakarta-oro-2.0.8.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jakarta-regexp-1.4.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/javassist-3.18.2-GA.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jcommander.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jdom-contrib.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jdom.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jebl.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jna-4.1.0.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jna-platform-4.1.0.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jsr305-1.3.9.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/juniversalchardet-1.0.3.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/log4j-1.2.17.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/lucene-core-2.9.3.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/mail.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/org-netbeans-swing-outline.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/pdf-transcoder.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/piccolo2d-core-1.3.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/piccolo_xml.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/sigar.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/talkbackShared.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/truezip-6.8.3.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/webservices-api.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/webservices-rt.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/xml-apis-ext.jar"/>
+    <path refid="directedevolutionplugin.runtime.module.classpath"/>
+    <path refid="testutils.runtime.module.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.hiddengeneplugintest">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.hiddengeneplugintest">
+    <patternset refid="excluded.from.module.hiddengeneplugintest"/>
+  </patternset>
+  
+  <path id="hiddengeneplugintest.module.sourcepath">
+    <dirset dir="${module.hiddengeneplugintest.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.hiddengeneplugintest" depends="compile.module.hiddengeneplugintest.production,compile.module.hiddengeneplugintest.tests" description="Compile module HiddenGenePluginTest"/>
+  
+  <target name="compile.module.hiddengeneplugintest.production" depends="register.custom.compilers,compile.module.directedevolutionplugin,compile.module.testutils" description="Compile module HiddenGenePluginTest; production classes">
+    <mkdir dir="${hiddengeneplugintest.output.dir}"/>
+    <javac2 destdir="${hiddengeneplugintest.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.hiddengeneplugintest}/javac">
+      <compilerarg line="${compiler.args.hiddengeneplugintest}"/>
+      <bootclasspath refid="hiddengeneplugintest.module.bootclasspath"/>
+      <classpath refid="hiddengeneplugintest.module.production.classpath"/>
+      <src refid="hiddengeneplugintest.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.hiddengeneplugintest"/>
+    </javac2>
+    
+    <copy todir="${hiddengeneplugintest.output.dir}">
+      <fileset dir="${module.hiddengeneplugintest.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.hiddengeneplugintest.tests" depends="register.custom.compilers,compile.module.hiddengeneplugintest.production" description="compile module HiddenGenePluginTest; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.hiddengeneplugintest" description="cleanup module">
+    <delete dir="${hiddengeneplugintest.output.dir}"/>
+    <delete dir="${hiddengeneplugintest.testoutput.dir}"/>
+  </target>
+</project>

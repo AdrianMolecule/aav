@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="libForTesting">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/HiddenGenePluginTest/lib/bsh-1.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/HiddenGenePluginTest/lib/cglib-nodep-3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/HiddenGenePluginTest/lib/jmock-junit4-2.8.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/HiddenGenePluginTest/lib/hamcrest-library-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/HiddenGenePluginTest/lib/jmock-testjar-2.8.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/HiddenGenePluginTest/lib/picocontainer-2.15-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/HiddenGenePluginTest/lib/annotations-java8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/HiddenGenePluginTest/lib/hamcrest-core-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/HiddenGenePluginTest/lib/jmock-junit4-2.8.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/HiddenGenePluginTest/lib/jmock-2.8.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/HiddenGenePluginTest/lib/picocontainer-2.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/HiddenGenePluginTest/lib/asm-5.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/HiddenGenePluginTest/lib/picocontainer-2.15-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/HiddenGenePluginTest/lib/junit-4.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/HiddenGenePluginTest/lib/jmock-junit4-2.8.1-javadoc.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

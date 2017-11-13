@@ -1,0 +1,1942 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="8" />
+    <option name="CUSTOM_SCOPE_NAME" value="Project Files" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="26d4356a-935f-4cce-bbf6-1d0775731ea5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrossOver/build/CrossOver.gplugin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrossoverTest/docs/fastas and pngs From Marti/martiOptimizedXcrossover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrossoverTest/docs/fastas and pngs From Marti/martiWildtypeXcrossover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrossoverTest/docs/paper directory/BTN6002-BM-Gillam-S_251992a.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrossoverTest/docs/paper directory/BTN_A_000114381_O_251980a.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrossoverTest/docs/umaryland/got back from xover.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DirectedEvolutionPlugin/build/DirectedEvolutionPlugin.gplugin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DirectedEvolutionPluginTest/testdata/Translation alignment of 2 sequences 1 and 5 with 8 Gap Oligo NEW.geneious" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DirectedEvolutionPluginTest/testdata/Translation alignment of 2 sequences 1 and 5 with 8 Gap Oligo REFERENCE.geneious" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DirectedEvolutionPluginTest/testdata/Translation alignment of 2 sequences With 1 Gap Olig NEW.geneious" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DirectedEvolutionPluginTest/testdata/Translation alignment of 2 sequences with 1 Gap Oligo REFERENCE.geneious" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DirectedEvolutionPluginTest/testdata/Translation alignment of 8 sequences With Oligos 20 7 8 Backwards NEW.geneious" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DirectedEvolutionPluginTest/testdata/Translation alignment of 8 sequences With Oligos 20 7 8 Backwards generated oligos REFERENCE test.geneious" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DirectedEvolutionPluginTest/testdata/Translation alignment of 8 sequences With Oligos 20 7 8 Forward NEW.geneious" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DirectedEvolutionPluginTest/testdata/Translation alignment of 8 sequences With Oligos 20 7 8 Forward REFERENCE test.geneious" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DirectedEvolutionPluginTest/testdata/Translation alignment of 8 sequences With Oligos 20 7 8 no oligos NEW.geneious" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DirectedEvolutionPluginTest/testdata/Translation alignment of 8 sequences With Oligos 20 7 8 no oligos REFERENCE test.geneious" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DirectedEvolutionPluginTest/testdata/Translation alignment of 8 sequences for test.geneious" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DirectedEvolutionPluginTest/testdata/backup/Translation alignment of 8 sequences With Oligos 20 7 8 Backwards generated oligos REFERENCE test.geneious" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DirectedEvolutionPluginTest/testdata/backup/Translation alignment of 8 sequences With Oligos 20 7 8 Forward REFERENCE test.geneious" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DirectedEvolutionPluginTest/testdata/backup/Translation alignment of 8 sequences With Oligos 20 7 8 and 7th sequence AAV8 ignored reference test.geneious" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DirectedEvolutionPluginTest/testdata/backup/Translation alignment of 8 sequences With Oligos 20 7 8 no oligos reference test.geneious" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DirectedEvolutionPluginTest/testdata/backup/Translation alignment of 8 sequences for test.geneious" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HiddenGenePluginTest/lib/picocontainer-2.15-javadoc.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HiddenGenePluginTest/testdata/Translation alignment of 2 sequences 1 and 5 with 8 Gap Oligo NEW.geneious" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HiddenGenePluginTest/testdata/Translation alignment of 2 sequences 1 and 5 with 8 Gap Oligo REFERENCE.geneious" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HiddenGenePluginTest/testdata/Translation alignment of 2 sequences With 1 Gap Olig NEW.geneious" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HiddenGenePluginTest/testdata/Translation alignment of 2 sequences with 1 Gap Oligo REFERENCE.geneious" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HiddenGenePluginTest/testdata/Translation alignment of 8 sequences With Oligos 20 7 8 Backwards NEW.geneious" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HiddenGenePluginTest/testdata/Translation alignment of 8 sequences With Oligos 20 7 8 Backwards generated oligos REFERENCE test.geneious" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HiddenGenePluginTest/testdata/Translation alignment of 8 sequences With Oligos 20 7 8 Forward NEW.geneious" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HiddenGenePluginTest/testdata/Translation alignment of 8 sequences With Oligos 20 7 8 Forward REFERENCE test.geneious" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HiddenGenePluginTest/testdata/Translation alignment of 8 sequences With Oligos 20 7 8 no oligos NEW.geneious" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HiddenGenePluginTest/testdata/Translation alignment of 8 sequences With Oligos 20 7 8 no oligos REFERENCE test.geneious" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HiddenGenePluginTest/testdata/Translation alignment of 8 sequences for test.geneious" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HiddenGenePluginTest/testdata/backup/Translation alignment of 8 sequences With Oligos 20 7 8 Backwards generated oligos REFERENCE test.geneious" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HiddenGenePluginTest/testdata/backup/Translation alignment of 8 sequences With Oligos 20 7 8 Forward REFERENCE test.geneious" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HiddenGenePluginTest/testdata/backup/Translation alignment of 8 sequences With Oligos 20 7 8 and 7th sequence AAV8 ignored reference test.geneious" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HiddenGenePluginTest/testdata/backup/Translation alignment of 8 sequences With Oligos 20 7 8 no oligos reference test.geneious" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HiddenGenePluginTest/testdata/backup/Translation alignment of 8 sequences for test.geneious" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/allgag.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/annotations_java8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/libForTesting.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_jsoup_jsoup_1_10_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/someJarsFromGeneiousLib.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/CrossOver__64_bit_.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/DirectedEvolutionPlugin__64_bit_.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/HiddenGene__64_bit_.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrossOver/.classpath" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrossOver/.project" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrossOver/.settings/org.eclipse.jdt.core.prefs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrossOver/CrossOver(64 bit).launch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrossOver/CrossOver.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrossOver/build.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrossOver/module_crossover.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrossOver/plugin.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrossOver/src/crossover/ColorChooserButton.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrossOver/src/crossover/CrossOverPlugin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrossOver/src/crossover/CrossoverGraphFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrossOver/src/crossover/CrossoverModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrossOver/src/crossover/CrossoverPluginOptions.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrossOver/src/crossover/CrossoverSequenceGraph.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrossOver/src/crossover/CrossoverStatistics.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrossOver/src/crossover/CrossoverUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrossOver/src/crossover/FrameGraphOptions.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrossOver/src/crossover/MaxBag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrossOver/src/crossover/MoreOptions.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrossOver/src/crossover/TagAsCrossoverOperation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrossOver/src/crossover/utils/CrossoverUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrossOver/src/crossover/utils/Distance.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrossoverTest/CrossoverTest.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrossoverTest/docs/fastas and pngs From Marti/martiFastaOptimizedChimeraOutput.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrossoverTest/docs/fastas and pngs From Marti/martiFastaOptimizedChimeraOutputCleaned.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrossoverTest/docs/fastas and pngs From Marti/martiOptimizedInput.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrossoverTest/docs/fastas and pngs From Marti/martiWildtypeChimeras256.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrossoverTest/docs/paper directory/Paper" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrossoverTest/docs/umaryland/339969156.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrossoverTest/docs/umaryland/generate graph.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrossoverTest/docs/umaryland/got back from xover.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrossoverTest/docs/umaryland/reference submitted opt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrossoverTest/docs/umaryland/references for first email with short fastas.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrossoverTest/docs/umaryland/references submitted wt.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrossoverTest/module_crossovertest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrossoverTest/src/BrowserTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrossoverTest/src/CrossoverTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DirectedEvolutionPlugin/.classpath" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DirectedEvolutionPlugin/.project" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DirectedEvolutionPlugin/.settings/org.eclipse.jdt.core.prefs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DirectedEvolutionPlugin/DirectedEvolutionPlugin (32 bit).launch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DirectedEvolutionPlugin/DirectedEvolutionPlugin (64 bit).launch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DirectedEvolutionPlugin/DirectedEvolutionPlugin.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DirectedEvolutionPlugin/build.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DirectedEvolutionPlugin/docs/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DirectedEvolutionPlugin/module_directedevolutionplugin.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DirectedEvolutionPlugin/plugin.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DirectedEvolutionPlugin/src/directedevolution/CompareSelectedSequencesOperation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DirectedEvolutionPlugin/src/directedevolution/ConcatenatedOligoModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DirectedEvolutionPlugin/src/directedevolution/DirectedEvolutionOperationOptions.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DirectedEvolutionPlugin/src/directedevolution/DirectedEvolutionPlugin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DirectedEvolutionPlugin/src/directedevolution/ExampleFastaExporter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DirectedEvolutionPlugin/src/directedevolution/Gap.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DirectedEvolutionPlugin/src/directedevolution/GapBasedOligoModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DirectedEvolutionPlugin/src/directedevolution/GenerateOligosOperation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DirectedEvolutionPlugin/src/directedevolution/HashCodeUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DirectedEvolutionPlugin/src/directedevolution/OligoModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DirectedEvolutionPlugin/src/directedevolution/OligoUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DirectedEvolutionPlugin/src/directedevolution/OptimizedNucleotideSequence.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DirectedEvolutionPlugin/src/directedevolution/SaveOligosOperation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DirectedEvolutionPlugin/src/directedevolution/VariantStatistics.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DirectedEvolutionPlugin/src/directedevolution/logging/LoginDocumentationOperation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DirectedEvolutionPluginTest/DirectedEvolutionPluginTest.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DirectedEvolutionPluginTest/module_directedevolutionplugintest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DirectedEvolutionPluginTest/src/directedevolution/MainTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DirectedEvolutionPluginTest/src/directedevolution/TestGapOligos.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DirectedEvolutionPluginTest/src/directedevolution/utils/DirectedEvolutionTestUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DirectedEvolutionPluginTest/testdata/Optimized sequences for Translation alignment of 8 sequences Expected.fasta" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DirectedEvolutionPluginTest/testdata/backup/Expected optimized sequences for Translation alignment of 8 sequences for test.fasta" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HiddenGene/.classpath" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HiddenGene/.project" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HiddenGene/.settings/org.eclipse.jdt.core.prefs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HiddenGene/HiddenGene (64 bit).launch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HiddenGene/HiddenGene.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HiddenGene/build.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HiddenGene/docs/references" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HiddenGene/module_hiddengene.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HiddenGene/plugin.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HiddenGene/src/hiddengene/FrameGraphOptions.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HiddenGene/src/hiddengene/FrameLogoSequenceGraph.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HiddenGene/src/hiddengene/FrameMaxes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HiddenGene/src/hiddengene/HiddenGenePlugin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HiddenGene/src/hiddengene/HiddenGeneUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HiddenGene/src/hiddengene/MaxBag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HiddenGene/src/hiddengene/MultilogoGraphFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HiddenGenePluginTest/HiddenGenePluginTest.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HiddenGenePluginTest/module_hiddengeneplugintest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HiddenGenePluginTest/src/MainTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HiddenGenePluginTest/testdata/Optimized sequences for Translation alignment of 8 sequences Expected.fasta" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HiddenGenePluginTest/testdata/backup/Expected optimized sequences for Translation alignment of 8 sequences for test.fasta" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestUtils/TestUtils.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestUtils/module_testutils.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestUtils/module_testutils_Mon_Nov_13_20-12-55_AEDT_2017.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestUtils/src/testutils/TestUtils.java" />
+    </list>
+    <ignored path="examples.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="*.class" />
+    <ignored path="*.iws/" />
+    <ignored path=".idea_modules/" />
+    <ignored path="atlassian-ide-plugin.xml" />
+    <ignored path="com_crashlytics_export_strings.xml" />
+    <ignored path="crashlytics.properties" />
+    <ignored path="crashlytics-build.properties" />
+    <ignored path="fabric.properties" />
+    <ignored path="*.log" />
+    <ignored path="**.jar" />
+    <ignored path="*.war" />
+    <ignored path="*.ear" />
+    <ignored path="*.zip" />
+    <ignored path="*.tar.gz" />
+    <ignored path="*.rar" />
+    <manually-removed-from-ignored>
+      <directory path=".idea/" />
+    </manually-removed-from-ignored>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="C:\genetics\backups" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="examples" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="GenerateOligosOperation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DirectedEvolutionPlugin/src/directedevolution/GenerateOligosOperation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9775">
+              <caret line="612" column="0" lean-forward="false" selection-start-line="612" selection-start-column="0" selection-end-line="612" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DirectedEvolutionOperationOptions.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DirectedEvolutionPlugin/src/directedevolution/DirectedEvolutionOperationOptions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="731">
+              <caret line="55" column="59" lean-forward="false" selection-start-line="55" selection-start-column="59" selection-end-line="55" selection-end-column="59" />
+              <folding>
+                <element signature="e#8679#8680#0" expanded="true" />
+                <element signature="e#8746#8747#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CrossoverTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CrossoverTest/src/CrossoverTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="44" column="57" lean-forward="false" selection-start-line="44" selection-start-column="57" selection-end-line="44" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BrowserTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CrossoverTest/src/BrowserTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="56" column="65" lean-forward="false" selection-start-line="56" selection-start-column="65" selection-end-line="56" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DirectedEvolutionPluginTest/src/directedevolution/MainTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1700">
+              <caret line="115" column="0" lean-forward="false" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HiddenGenePlugin.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HiddenGene/src/hiddengene/HiddenGenePlugin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="36" column="11" lean-forward="false" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profiles_settings.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/copyright/profiles_settings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="libForTesting.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/libraries/libForTesting.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestGapOligos.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DirectedEvolutionPluginTest/src/directedevolution/TestGapOligos.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="39" column="59" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="39" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>lastInSource</find>
+      <find>l</find>
+      <find>logger</find>
+      <find>boole</find>
+      <find>documents[0].</find>
+      <find>documents[0].g</find>
+      <find>documents[0].ge</find>
+      <find>documents[0].get</find>
+      <find>documents[0].getF</find>
+      <find>documents[0].getFi</find>
+      <find>documents[0].getFie</find>
+      <find>documents[0].getFiel</find>
+      <find>documents[0].getFieldV</find>
+      <find>documents[0].getFieldVa</find>
+      <find>documents[0].getFieldVal</find>
+      <find>documents[0].getFieldValu</find>
+      <find>documents[0].getFieldValue</find>
+      <find>documents[0].getFieldValue()</find>
+      <find>documents[0].getFieldValue(</find>
+      <find>documents[0].getField</find>
+      <find>documents[0].getFields</find>
+      <find>documents[0].getFields(</find>
+      <find>documents[0].getFields()</find>
+      <find>in createDocumentBasedGraphForAlignment and isChimeraFirst</find>
+      <find>ATGGCTGCCGATGGTTATCTTCCAGATTGGCTCGAGGACAACCTCTCTGA</find>
+      <find>-</find>
+      <find>generateOptimizedSeq</find>
+      <find>FrameGraphOptions</find>
+      <find>select</find>
+      <find>option</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>private static void</replace>
+      <replace>Nonnull</replace>
+      <replace>HiddenGene</replace>
+      <replace>hiddengene</replace>
+      <replace>baseFrame</replace>
+      <replace>displayAsGradient</replace>
+      <replace>MyLabelOption</replace>
+      <replace>labelOption</replace>
+      <replace />
+      <replace>length</replace>
+      <replace>getUniqueLengthsUngappedFragments</replace>
+      <replace>postToUM</replace>
+      <replace>parentalSequences</replace>
+      <replace>SequenceDocument</replace>
+      <replace>new DefaultNucleotideSequence</replace>
+      <replace>parentalSequence</replace>
+      <replace>List&lt;SequenceDocument&gt;</replace>
+      <replace>allSequences</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\genetics\aav\examples\DirectedEvolutionPlugin\src\directedevolution</dir>
+      <dir>C:\genetics\aav\examples\DirectedEvolutionPlugin\src\HiddenGene</dir>
+      <dir>C:\genetics\aav\examples\</dir>
+      <dir>C:\development\java\jse8u51bits64\jre\lib\rt.jar!\java\util\stream</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/DirectedEvolutionPlugin/src/directedevolution/VariantStatistics.java" />
+        <option value="$PROJECT_DIR$/CrossOver/docs/umaryland/references" />
+        <option value="$PROJECT_DIR$/CrossOver/docs/references" />
+        <option value="$PROJECT_DIR$/CrossOver/src/crossover/CrossOverGraphFactory.java" />
+        <option value="$PROJECT_DIR$/CrossOver/docs/umaryland/generate graph.txt" />
+        <option value="$PROJECT_DIR$/CrossOver/src/crossover/ColorChooserButton.java" />
+        <option value="$PROJECT_DIR$/CrossOver/src/crossover/ColorButton.java" />
+        <option value="$PROJECT_DIR$/CrossOver/src/crossover/MaxBag.java" />
+        <option value="$PROJECT_DIR$/CrossOver/src/crossover/utils/Distance.java" />
+        <option value="$PROJECT_DIR$/TestUtils/src/TestUtils.java" />
+        <option value="$PROJECT_DIR$/DirectedEvolutionPluginTest/src/directedevolution/TestUtils.java" />
+        <option value="$PROJECT_DIR$/DirectedEvolutionPluginTest/src/directedevolution/DirectedEvolutionTestUtils.java" />
+        <option value="$PROJECT_DIR$/DirectedEvolutionPluginTest/src/directedevolution/utils/DirectedEvolutionTestUtils.java" />
+        <option value="$PROJECT_DIR$/TestUtils/src/testutils/TestUtils.java" />
+        <option value="$PROJECT_DIR$/DirectedEvolutionPluginTest/src/directedevolution/TestGapOligos.java" />
+        <option value="$PROJECT_DIR$/CrossOver/src/crossover/utils/OligoUtils.java" />
+        <option value="$PROJECT_DIR$/CrossOver/docs/umaryland/references submitted fastas.txt" />
+        <option value="$PROJECT_DIR$/CrossOver/src/crossover/utils/CrossoverUtils.java" />
+        <option value="$PROJECT_DIR$/CrossoverTest/docs/umaryland/got back from xover.txt" />
+        <option value="$PROJECT_DIR$/CrossoverTest/src/JunkTest.java" />
+        <option value="$PROJECT_DIR$/CrossOver/src/crossover/CrossoverUtil.java" />
+        <option value="$PROJECT_DIR$/CrossoverTest/src/MainTest.java" />
+        <option value="$PROJECT_DIR$/CrossoverTest/docs/stats.txt" />
+        <option value="$PROJECT_DIR$/CrossoverTest/docs/fastasFromMarti/martiOptimizedInput.txt" />
+        <option value="$PROJECT_DIR$/CrossoverTest/docs/fastas and pngs From Marti/martiFastaOptimizedChimeraOutputCleaned.txt" />
+        <option value="$PROJECT_DIR$/CrossOver/src/crossover/MoreOptions.java" />
+        <option value="$PROJECT_DIR$/DirectedEvolutionPlugin/src/directedevolution/Gap.java" />
+        <option value="$PROJECT_DIR$/CrossoverTest/docs/umaryland/references submitted fastas.txt" />
+        <option value="$PROJECT_DIR$/CrossoverTest/docs/umaryland/references submitted wt.txt" />
+        <option value="$PROJECT_DIR$/CrossoverTest/docs/umaryland/reference submitted opt" />
+        <option value="$PROJECT_DIR$/CrossOver/build.xml" />
+        <option value="$PROJECT_DIR$/Browser/src/browser/CrossoverModel.java" />
+        <option value="$PROJECT_DIR$/CrossoverTest/src/BrowserTest.java" />
+        <option value="$PROJECT_DIR$/CrossOver/src/crossover/FrameGraphOptions.java" />
+        <option value="$PROJECT_DIR$/CrossOver/src/crossover/CrossoverPluginOptions.java" />
+        <option value="$PROJECT_DIR$/CrossOver/src/crossover/CrossoverModel.java" />
+        <option value="$PROJECT_DIR$/CrossOver/src/crossover/CrossoverSequenceGraph.java" />
+        <option value="$PROJECT_DIR$/CrossOver/src/crossover/CrossoverStatistics.java" />
+        <option value="$PROJECT_DIR$/CrossOver/src/crossover/SaveOligosOperation.java" />
+        <option value="$PROJECT_DIR$/CrossOver/src/crossover/CrossoverGraphFactory.java" />
+        <option value="$PROJECT_DIR$/CrossOver/src/crossover/TagAsCrossoverOperation.java" />
+        <option value="$PROJECT_DIR$/CrossOver/src/crossover/CrossOverPlugin.java" />
+        <option value="$PROJECT_DIR$/DirectedEvolutionPlugin/src/directedevolution/DirectedEvolutionPlugin.java" />
+        <option value="$PROJECT_DIR$/CrossoverTest/src/CrossoverTest.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.java" />
+        <option value="$PROJECT_DIR$/DirectedEvolutionPlugin/src/directedevolution/GenerateOligosOperation.java" />
+        <option value="$PROJECT_DIR$/DirectedEvolutionPlugin/src/directedevolution/DirectedEvolutionOperationOptions.java" />
+        <option value="$PROJECT_DIR$/DirectedEvolutionPluginTest/src/directedevolution/MainTest.java" />
+        <option value="$PROJECT_DIR$/examples.xml" />
+        <option value="$PROJECT_DIR$/examples.properties" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1691" />
+    <option name="y" value="93" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java language level issuesJava</id>
+          </State>
+          <State>
+            <id>JavaBeans issuesJava</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>Logging issuesJava</id>
+          </State>
+          <State>
+            <id>Maven</id>
+          </State>
+          <State>
+            <id>Method metricsJava</id>
+          </State>
+          <State>
+            <id>Numeric issuesJava</id>
+          </State>
+          <State>
+            <id>Portability issuesJava</id>
+          </State>
+          <State>
+            <id>Security issuesJava</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>ClassWithoutNoArgConstructor</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="aav" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CrossOver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aav" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HiddenGenePluginTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aav" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HiddenGenePluginTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="examples" type="58d84e3e:PackageViewProjectNode" />
+              <item name="CrossOver" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="examples" type="58d84e3e:PackageViewProjectNode" />
+              <item name="CrossOver" type="616d4139:PackageViewModuleNode" />
+              <item name="crossover" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="examples" type="58d84e3e:PackageViewProjectNode" />
+              <item name="CrossoverTest" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="examples" type="58d84e3e:PackageViewProjectNode" />
+              <item name="HiddenGene" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="examples" type="58d84e3e:PackageViewProjectNode" />
+              <item name="HiddenGene" type="616d4139:PackageViewModuleNode" />
+              <item name="hiddengene" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3689655" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="SearchEverywhereHistoryKey" value=".gitignore&#9;null&#9;null&#10;*.ant&#9;FILE&#9;file://D:/downloads/geneious-devkit/geneious-10.0.3-devkit/examples/GeneiousFiles/bundledPlugins/com.biomatters.plugins.annotationTableViewer.AnnotationTableViewerPlugin.jar&#10;renameplugin&#9;FILE&#9;file://D:/downloads/geneious-devkit/geneious-10.0.3-devkit/examples/GeneiousFiles/bundledPlugins/com.biomatters.plugins.batchRename.BatchRenamePlugin.jar&#10;renameplug&#9;FILE&#9;file://D:/downloads/geneious-devkit/geneious-10.0.3-devkit/examples/GeneiousFiles/bundledPlugins/com.biomatters.plugins.batchRename.BatchRenamePlugin.jar" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="JAVA&#10;TEXT" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Groovy JUnit" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="true" />
+    <property name="Repository.Attach.Sources" value="true" />
+    <property name="Downloaded.Files.Path" value="C:\genetics\aav\examples\TestUtils\lib" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="examples" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/HiddenGene/src/hiddengene" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="groovy.util.GroovyTestCase" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.biomatters.adrianBackTranslation" />
+    </key>
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="directedevolution.OligoUtils" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="hiddengene" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\genetics\aav\examples\CrossoverTest\lib" />
+      <recent name="C:\genetics\aav\examples\CrossoverTest\docs\fastasFromMarti" />
+      <recent name="C:\genetics\aav\examples\CrossoverTest\docs\umaryland" />
+      <recent name="C:\genetics\aav\examples\CrossoverTest\docs\paper directory" />
+      <recent name="C:\genetics\aav\examples\CrossoverTest" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="crossover" />
+      <recent name="" />
+      <recent name="hiddengene" />
+      <recent name="com.biomatters.exampleSequenceGraph2Plugin" />
+      <recent name="directedevolution" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\genetics\aav\examples\BrowserTest" />
+      <recent name="C:\genetics\aav\examples\CrossoverTest\docs\fastas and pngs From Marti" />
+      <recent name="C:\genetics\aav\examples\CrossOver\docs\umaryland" />
+      <recent name="C:\genetics\aav\examples" />
+      <recent name="C:\genetics\aav\examples\DirectedEvolutionPlugin\src" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="directedevolution" />
+      <recent name="com.biomatters.adrianBackTranslation" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.TestGapOligos">
+    <configuration name="All in CrossoverTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="CrossoverTest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="CrossoverTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="CrossoverTest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CrossoverTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="MainTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="HiddenGenePluginTest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="directedevolution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="DirectedEvolutionPluginTest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="directedevolution" />
+      <option name="MAIN_CLASS_NAME" value="directedevolution.MainTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TestGapOligos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="directedevolution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="DirectedEvolutionPluginTest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="directedevolution" />
+      <option name="MAIN_CLASS_NAME" value="directedevolution.TestGapOligos" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="BackTranslationPlugin" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="AntRunConfiguration" factoryName="Ant Target">
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration name="com.biomatters.plugins.batchRename.BatchRenamePlugin.jar" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="JAR_PATH" value="$PROJECT_DIR$/GeneiousFiles/bundledPlugins/com.biomatters.plugins.batchRename.BatchRenamePlugin.jar" />
+      <envs />
+    </configuration>
+    <configuration name="copyPluginAndRename" type="AntRunConfiguration" factoryName="Ant Target">
+      <antsettings antfile="file://$PROJECT_DIR$/ExampleDocumentViewer/build.xml" target="copyPluginAndRename">
+        <property name="newPluginName" value="" />
+      </antsettings>
+    </configuration>
+    <configuration name="copyPluginAndRenametoAdrianBackTranslation" type="AntRunConfiguration" factoryName="Ant Target">
+      <antsettings antfile="file://$PROJECT_DIR$/ExampleDocumentViewer/build.xml" target="copyPluginAndRename">
+        <property name="newPluginName" value="AdrianDocument" />
+        <property name="newPluginPackageName" value="AdrianDocumentPackage" />
+        <property name="newPluginPackagePath" value="." />
+      </antsettings>
+    </configuration>
+    <list size="11">
+      <item index="0" class="java.lang.String" itemvalue="Ant Target.copyPluginAndRenametoAdrianBackTranslation" />
+      <item index="1" class="java.lang.String" itemvalue="Ant Target.copyPluginAndRename" />
+      <item index="2" class="java.lang.String" itemvalue="Application.HiddenGene (64 bit)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.DirectedEvolutionPlugin (64 bit)" />
+      <item index="4" class="java.lang.String" itemvalue="Application.CrossOver (64 bit)" />
+      <item index="5" class="java.lang.String" itemvalue="JAR Application.com.biomatters.plugins.batchRename.BatchRenamePlugin.jar" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.CrossoverTest" />
+      <item index="7" class="java.lang.String" itemvalue="JUnit.MainTest" />
+      <item index="8" class="java.lang.String" itemvalue="JUnit.TestGapOligos" />
+      <item index="9" class="java.lang.String" itemvalue="JUnit.MainTest (1)" />
+      <item index="10" class="java.lang.String" itemvalue="JUnit.All in CrossoverTest" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestGapOligos" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.All in CrossoverTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CrossoverTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MainTest (1)" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.MainTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\a\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="26d4356a-935f-4cce-bbf6-1d0775731ea5" name="Default" comment="" />
+      <created>1477308516896</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1477308516896</updated>
+    </task>
+    <task id="LOCAL-00038" summary="HiddenGene &#10;&#10;All frames seem to work now.">
+      <created>1499221742827</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1499221742827</updated>
+    </task>
+    <task id="LOCAL-00039" summary="HiddenGene &#10;&#10;All frames seem to work now including vertical, gradient and anomaly.">
+      <created>1499245434760</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1499245434760</updated>
+    </task>
+    <task id="LOCAL-00040" summary="HiddenGene &#10;Option reorg">
+      <created>1499258412437</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1499258412437</updated>
+    </task>
+    <task id="LOCAL-00041" summary="added total per frame">
+      <created>1499262252206</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1499262252206</updated>
+    </task>
+    <task id="LOCAL-00042" summary="changed so I create CrossOver">
+      <created>1499348185095</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1499348185095</updated>
+    </task>
+    <task id="LOCAL-00043" summary="first commit">
+      <created>1499348411141</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1499348411141</updated>
+    </task>
+    <task id="LOCAL-00044" summary="minor">
+      <created>1499417861704</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1499417861704</updated>
+    </task>
+    <task id="LOCAL-00045" summary="made hidden gene follow startResidue != endResidue">
+      <created>1499427971749</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1499427971749</updated>
+    </task>
+    <task id="LOCAL-00046" summary="some start on lenghts">
+      <created>1499772593219</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1499772593219</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Almost working with lengths except it puts some double ones because max is wrong">
+      <created>1499777939194</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1499777939194</updated>
+    </task>
+    <task id="LOCAL-00048" summary="almost there with lengths. Problem with the last one">
+      <created>1499831246827</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1499831246827</updated>
+    </task>
+    <task id="LOCAL-00049" summary="I think it works. Lengths are good">
+      <created>1499864074335</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1499864074335</updated>
+    </task>
+    <task id="LOCAL-00050" summary="with dynamic length calculation">
+      <created>1499915186209</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1499915186209</updated>
+    </task>
+    <task id="LOCAL-00051" summary="it seems to work calculating lengths and drawing individual lines">
+      <created>1499946286861</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1499946286861</updated>
+    </task>
+    <task id="LOCAL-00052" summary="almost got the lines connected. Works in rest">
+      <created>1499955034598</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1499955034598</updated>
+    </task>
+    <task id="LOCAL-00053" summary="downwards  verticals right but upwards NOT">
+      <created>1500039830176</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1500039830176</updated>
+    </task>
+    <task id="LOCAL-00054" summary="downwards  verticals maybe correct">
+      <created>1500043891573</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1500043891573</updated>
+    </task>
+    <task id="LOCAL-00055" summary="verticals fine looks good">
+      <created>1500180980676</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1500180980691</updated>
+    </task>
+    <task id="LOCAL-00056" summary="started with color labels">
+      <created>1500389713942</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1500389713942</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Colors colors colors">
+      <created>1500467831614</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1500467831615</updated>
+    </task>
+    <task id="LOCAL-00058" summary="started on stats">
+      <created>1500471853455</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1500471853455</updated>
+    </task>
+    <task id="LOCAL-00059" summary="start adding tests on stats">
+      <created>1500520598492</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1500520598492</updated>
+    </task>
+    <task id="LOCAL-00060" summary="tests for Crossover">
+      <created>1500527660704</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1500527660704</updated>
+    </task>
+    <task id="LOCAL-00061" summary="refactor">
+      <created>1500545051777</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1500545051777</updated>
+    </task>
+    <task id="LOCAL-00062" summary="more stats">
+      <created>1500551022957</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1500551022957</updated>
+    </task>
+    <task id="LOCAL-00063" summary="stats seem to work">
+      <created>1500553228614</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1500553228614</updated>
+    </task>
+    <task id="LOCAL-00064" summary="some performance issues solved. All seems to work well.">
+      <created>1500616751008</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1500616751009</updated>
+    </task>
+    <task id="LOCAL-00065" summary="minor brushing WORKS. Have to check plugin">
+      <created>1500630685042</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1500630685042</updated>
+    </task>
+    <task id="LOCAL-00066" summary="refactoring non java files">
+      <created>1500632899750</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1500632899750</updated>
+    </task>
+    <task id="LOCAL-00067" summary="refactoring non java files">
+      <created>1500634165962</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1500634165962</updated>
+    </task>
+    <task id="LOCAL-00068" summary="added crossover discounting mutations">
+      <created>1500814470967</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1500814470967</updated>
+    </task>
+    <task id="LOCAL-00069" summary="some more from Maryland U Opt256 4 has bad mutation number">
+      <created>1500815185592</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1500815185592</updated>
+    </task>
+    <task id="LOCAL-00070" summary="fixed a couple of issues for crossover">
+      <created>1500816435705</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1500816435705</updated>
+    </task>
+    <task id="LOCAL-00071" summary="old one I forgot to add to git">
+      <created>1500853522325</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1500853522325</updated>
+    </task>
+    <task id="LOCAL-00072" summary="recalculated crossover discounting mutations">
+      <created>1500883892906</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1500883892907</updated>
+    </task>
+    <task id="LOCAL-00073" summary="bad for 7 388 at 1155">
+      <created>1500904693992</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1500904693992</updated>
+    </task>
+    <task id="LOCAL-00074" summary="Again bad for 7 388 at 1155 but 9 11 4 work">
+      <created>1500952919771</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1500952919771</updated>
+    </task>
+    <task id="LOCAL-00075" summary="9 11  and opt 7-388 and 4-388 work now">
+      <created>1500955905873</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1500955905873</updated>
+    </task>
+    <task id="LOCAL-00076" summary="live post to Uof M for comparison">
+      <created>1500992644116</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1500992644116</updated>
+    </task>
+    <task id="LOCAL-00077" summary="one is still bad!!">
+      <created>1500992769445</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1500992769445</updated>
+    </task>
+    <task id="LOCAL-00078" summary="all but mybe 10 should pass. Now 11 fails">
+      <created>1501055046688</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1501055046698</updated>
+    </task>
+    <task id="LOCAL-00079" summary="I guess crossover calculation can be declared finished&#10;all but mybe 10 should pass. Now 11 fails&#10;need to do the lines form parallels">
+      <created>1501078178330</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1501078178330</updated>
+    </task>
+    <task id="LOCAL-00080" summary="first commit">
+      <created>1501144863182</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1501144863182</updated>
+    </task>
+    <task id="LOCAL-00081" summary="after big change introducing plugin first sequence option. Works but the option does not seem to propagate.">
+      <created>1501156455003</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1501156455003</updated>
+    </task>
+    <task id="LOCAL-00082" summary="before drawing group connections">
+      <created>1501159236121</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1501159236121</updated>
+    </task>
+    <task id="LOCAL-00083" summary="before drawing group connections 1">
+      <created>1501206548907</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1501206548907</updated>
+    </task>
+    <task id="LOCAL-00084" summary="This looks good and has all the basic features">
+      <created>1501244274023</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1501244274023</updated>
+    </task>
+    <task id="LOCAL-00085" summary="The toggling of Crossover documents seems to work">
+      <created>1501249252381</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1501249252381</updated>
+    </task>
+    <task id="LOCAL-00086" summary="The toggling of Crossover documents DOES work">
+      <created>1501249873834</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1501249873834</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="CrossoverTest - 2017.11.13 at 22h 15m 32s.xml">
+      <configuration name="CrossoverTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest - 2017.11.13 at 20h 24m 20s.xml">
+      <configuration name="MainTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest - 2017.11.13 at 22h 09m 39s.xml">
+      <configuration name="MainTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_(1) - 2017.11.13 at 20h 02m 50s.xml">
+      <configuration name="MainTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_(1) - 2017.11.13 at 20h 24m 42s.xml">
+      <configuration name="MainTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_(1) - 2017.11.13 at 22h 09m 56s.xml">
+      <configuration name="MainTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestGapOligos - 2017.11.13 at 20h 02m 27s.xml">
+      <configuration name="TestGapOligos" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestGapOligos - 2017.11.13 at 20h 24m 23s.xml">
+      <configuration name="TestGapOligos" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestGapOligos - 2017.11.13 at 22h 09m 41s.xml">
+      <configuration name="TestGapOligos" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestGapOligos - 2017.11.13 at 22h 47m 06s.xml">
+      <configuration name="TestGapOligos" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1358" y="-8" width="1936" height="1176" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.327451" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47549018" sideWeight="0.478145" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13725491" sideWeight="0.55597013" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47549018" sideWeight="0.521855" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46666667" sideWeight="0.4978678" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37793177" sideWeight="0.74120957" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24946696" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09434968" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30272108" sideWeight="0.63752663" order="3" side_tool="false" content_ui="tabs" x="1014" y="893" width="1920" height="235" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17324094" sideWeight="0.25879043" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32923368" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28193" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28137255" sideWeight="0.4488273" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26226014" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="2485" y="877" width="640" height="461" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.022108844" sideWeight="0.6183369" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32923368" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8649573" sideWeight="0.36247334" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28193" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24946696" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09434968" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30272108" sideWeight="0.63752663" order="3" side_tool="false" content_ui="tabs" x="1014" y="893" width="1920" height="235" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32777777" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28333333" sideWeight="0.4552239" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26226014" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="2485" y="877" width="640" height="461" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24829932" sideWeight="0.47867805" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26360545" sideWeight="0.54744136" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46666667" sideWeight="0.4978678" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14447807" sideWeight="0.74120957" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.022108844" sideWeight="0.6183369" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17324094" sideWeight="0.25879043" order="5" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/CrossOver" />
+      <path value="$PROJECT_DIR$/CrossoverTest" />
+      <path value="$PROJECT_DIR$/DirectedEvolutionPlugin" />
+      <path value="$PROJECT_DIR$/DirectedEvolutionPluginTest" />
+      <path value="$PROJECT_DIR$/HiddenGene" />
+      <path value="$PROJECT_DIR$/TestUtils" />
+    </ignored-roots>
+    <MESSAGE value="more stats" />
+    <MESSAGE value="stats seem to work" />
+    <MESSAGE value="Stats work" />
+    <MESSAGE value="some performance issues solved. All seems to work well." />
+    <MESSAGE value="minor brushing WORKS. Have to check plugin" />
+    <MESSAGE value="refactoring non java files" />
+    <MESSAGE value="added crossover discounting mutations" />
+    <MESSAGE value="some more from Maryland U Opt256 4 has bad mutation number" />
+    <MESSAGE value="fixed a couple of issues for crossover" />
+    <MESSAGE value="old one I forgot to add to git" />
+    <MESSAGE value="recalculated crossover discounting mutations" />
+    <MESSAGE value="bad for 7 388 at 1155" />
+    <MESSAGE value="Again bad for 7 388 at 1155 but 9 11 4 work" />
+    <MESSAGE value="9 11  and opt 7-388 and 4-388 work now" />
+    <MESSAGE value="live post to Uof M for comparison" />
+    <MESSAGE value="one is still bad!!" />
+    <MESSAGE value="all but mybe 10 should pass. Now 11 fails" />
+    <MESSAGE value="I guess crossover calculation can be declared finished&#10;all but mybe 10 should pass. Now 11 fails&#10;need to do the lines form parallels" />
+    <MESSAGE value="first commit" />
+    <MESSAGE value="after big change introducing plugin first sequence option. Works but the option does not seem to propagate." />
+    <MESSAGE value="before drawing group connections" />
+    <MESSAGE value="before drawing group connections 1" />
+    <MESSAGE value="This looks good and has all the basic features" />
+    <MESSAGE value="The toggling of Crossover documents seems to work" />
+    <MESSAGE value="The toggling of Crossover documents DOES work" />
+    <option name="LAST_COMMIT_MESSAGE" value="The toggling of Crossover documents DOES work" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CrossOver/src/crossover/CrossoverSequenceGraph.java</url>
+          <line>84</line>
+          <properties />
+          <option name="timeStamp" value="696" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint type="java-exception">
+          <properties>
+            <catch-class-filters>
+              <class-filter pattern="java.lang.ClassNotFoundException" />
+            </catch-class-filters>
+            <option name="catch-filters-enabled" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="699" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="sequenceData" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+    <buildFile url="file://$PROJECT_DIR$/DirectedEvolutionPlugin/build.xml">
+      <targetFilters>
+        <filter targetName="distribute" isVisible="false" />
+        <filter targetName="build" isVisible="false" />
+        <filter targetName="compile" isVisible="false" />
+        <filter targetName="prepare" isVisible="false" />
+        <filter targetName="clean" isVisible="false" />
+      </targetFilters>
+      <expanded value="true" />
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/HiddenGene/build.xml">
+      <targetFilters>
+        <filter targetName="distribute" isVisible="false" />
+        <filter targetName="build" isVisible="false" />
+        <filter targetName="compile" isVisible="false" />
+        <filter targetName="prepare" isVisible="false" />
+        <filter targetName="clean" isVisible="false" />
+        <filter targetName="copyPluginAndRename" isVisible="false" />
+      </targetFilters>
+      <expanded value="false" />
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/CrossOver/build.xml">
+      <targetFilters>
+        <filter targetName="distribute" isVisible="false" />
+        <filter targetName="build" isVisible="false" />
+        <filter targetName="compile" isVisible="false" />
+        <filter targetName="prepare" isVisible="false" />
+        <filter targetName="clean" isVisible="false" />
+        <filter targetName="copyPluginAndRename" isVisible="false" />
+      </targetFilters>
+      <expanded value="true" />
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/CrossOver/build.xml">
+      <targetFilters>
+        <filter targetName="distribute" isVisible="false" />
+        <filter targetName="build" isVisible="false" />
+        <filter targetName="compile" isVisible="false" />
+        <filter targetName="prepare" isVisible="false" />
+        <filter targetName="clean" isVisible="false" />
+        <filter targetName="copyPluginAndRename" isVisible="false" />
+      </targetFilters>
+      <expanded value="true" />
+    </buildFile>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://C:/development/java/jse8u51bits64/src.zip!/java/util/regex/Pattern.java" />
+    <entry file="file://$PROJECT_DIR$/Browser/src/browser/CrossoverModel.java" />
+    <entry file="jar://$PROJECT_DIR$/GeneiousFiles/lib/GeneiousPublicAPI.jar!/com/biomatters/geneious/publicapi/plugin/PluginPreferences.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="39" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/GeneiousFiles/lib/GeneiousPublicAPI.jar!/com/biomatters/geneious/publicapi/implementations/DefaultAlignmentDocument.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="89" column="13" lean-forward="false" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/GeneiousFiles/lib/GeneiousPublicAPI.jar!/com/biomatters/geneious/publicapi/implementations/AlignmentSequence.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="67" column="82" lean-forward="false" selection-start-line="67" selection-start-column="82" selection-end-line="67" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/GeneiousFiles/lib/GeneiousPublicAPI.jar!/com/biomatters/geneious/publicapi/implementations/NucleotideAlignmentSequence.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="14" column="48" lean-forward="false" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestUtils/src/testutils/TestUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/GeneiousFiles/lib/GeneiousPublicAPI.jar!/com/biomatters/geneious/publicapi/documents/sequence/NucleotideSequenceDocument.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="60" lean-forward="true" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/GeneiousFiles/lib/GeneiousPublicAPI.jar!/com/biomatters/geneious/publicapi/documents/PluginDocument.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/GeneiousFiles/lib/GeneiousPublicAPI.jar!/com/biomatters/geneious/publicapi/documents/sequence/SequenceDocument.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/GeneiousFiles/lib/GeneiousPublicAPI.jar!/com/biomatters/geneious/publicapi/implementations/sequence/DefaultSequenceDocument.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="70" column="22" lean-forward="false" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/GeneiousFiles/lib/GeneiousPublicAPI.jar!/com/biomatters/geneious/publicapi/implementations/sequence/DefaultNucleotideSequence.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/development/java/jse8u51bits64/src.zip!/java/lang/CharSequence.java" />
+    <entry file="file://$PROJECT_DIR$/CrossOver/src/crossover/CrossoverPluginOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="122" lean-forward="false" selection-start-line="13" selection-start-column="122" selection-end-line="13" selection-end-column="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/GeneiousFiles/lib/GeneiousPublicAPI.jar!/com/biomatters/geneious/publicapi/plugin/SequenceGraphFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/GeneiousFiles/iSeek.jar!/com/biomatters/iseek/plugin/ak.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExampleDocumentViewer/src/com/biomatters/exampleDocumentViewerPlugin/adrian/IOUtils.java" />
+    <entry file="jar://$PROJECT_DIR$/GeneiousFiles/lib/GeneiousPublicAPI.jar!/com/biomatters/geneious/publicapi/plugin/GeneiousPlugin.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CrossOver/src/crossover/CrossoverModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="135" column="0" lean-forward="false" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CrossOver/src/crossover/TagAsCrossoverOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="25" column="10" lean-forward="false" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/GeneiousFiles/lib/GeneiousPublicAPI.jar!/com/biomatters/geneious/publicapi/documents/DocumentField.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7157">
+          <caret line="508" column="0" lean-forward="false" selection-start-line="508" selection-start-column="0" selection-end-line="508" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DirectedEvolutionPlugin/src/directedevolution/logging/LoginDocumentationOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CrossOver/src/crossover/CrossoverStatistics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/GeneiousFiles/lib/GeneiousPublicAPI.jar!/com/biomatters/geneious/publicapi/plugin/SequenceViewerExtension.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2499">
+          <caret line="196" column="48" lean-forward="false" selection-start-line="196" selection-start-column="48" selection-end-line="196" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DirectedEvolutionPlugin/src/directedevolution/CompareSelectedSequencesOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DirectedEvolutionPlugin/src/directedevolution/SaveOligosOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="35" column="73" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="74" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DirectedEvolutionPlugin/src/directedevolution/DirectedEvolutionPlugin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="48" column="36" lean-forward="false" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CrossOver/src/crossover/CrossoverGraphFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="43" column="81" lean-forward="false" selection-start-line="43" selection-start-column="67" selection-end-line="43" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/gen files from emails/directedevolution/GenerateOligosOperation.class" />
+    <entry file="file://$PROJECT_DIR$/DirectedEvolutionPlugin/src/directedevolution/OligoUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="67" column="33" lean-forward="false" selection-start-line="67" selection-start-column="33" selection-end-line="67" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CrossOver/src/crossover/CrossOverPlugin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CrossOver/src/crossover/FrameGraphOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="35" column="4" lean-forward="false" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CrossOver/src/crossover/CrossoverSequenceGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2210">
+          <caret line="152" column="44" lean-forward="false" selection-start-line="152" selection-start-column="44" selection-end-line="152" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/GeneiousFiles/lib/GeneiousPublicAPI.jar!/com/biomatters/geneious/publicapi/plugin/Options.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64175">
+          <caret line="4185" column="15" lean-forward="false" selection-start-line="4185" selection-start-column="15" selection-end-line="4185" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DirectedEvolutionPlugin/src/directedevolution/DirectedEvolutionOperationOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="55" column="59" lean-forward="false" selection-start-line="55" selection-start-column="59" selection-end-line="55" selection-end-column="59" />
+          <folding>
+            <element signature="e#8679#8680#0" expanded="true" />
+            <element signature="e#8746#8747#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CrossoverTest/src/CrossoverTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="44" column="57" lean-forward="false" selection-start-line="44" selection-start-column="57" selection-end-line="44" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CrossoverTest/src/BrowserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="56" column="65" lean-forward="false" selection-start-line="56" selection-start-column="65" selection-end-line="56" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DirectedEvolutionPlugin/src/directedevolution/GenerateOligosOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9775">
+          <caret line="612" column="0" lean-forward="false" selection-start-line="612" selection-start-column="0" selection-end-line="612" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DirectedEvolutionPluginTest/src/directedevolution/TestGapOligos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="39" column="59" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="39" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples.xml" />
+    <entry file="file://$PROJECT_DIR$/examples.properties" />
+    <entry file="file://$PROJECT_DIR$/DirectedEvolutionPluginTest/DirectedEvolutionPluginTest.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HiddenGenePluginTest/module_hiddengeneplugintest_Tue_Oct_24_22-39-58_AEDT_2017.xml" />
+    <entry file="file://$PROJECT_DIR$/HiddenGenePluginTest/module_hiddengeneplugintest_Mon_Nov_13_20-12-56_AEDT_2017.xml" />
+    <entry file="file://$PROJECT_DIR$/DirectedEvolutionPluginTest/src/directedevolution/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="115" column="0" lean-forward="false" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CrossOver/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/HiddenGene/src/hiddengene/HiddenGenePlugin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="36" column="11" lean-forward="false" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/copyright/profiles_settings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/libForTesting.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3689655" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>CrossoverTest</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3689655" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>allgag</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3689655" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

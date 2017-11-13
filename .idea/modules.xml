@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CrossOver/CrossOver.iml" filepath="$PROJECT_DIR$/CrossOver/CrossOver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CrossoverTest/CrossoverTest.iml" filepath="$PROJECT_DIR$/CrossoverTest/CrossoverTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DirectedEvolutionPlugin/DirectedEvolutionPlugin.iml" filepath="$PROJECT_DIR$/DirectedEvolutionPlugin/DirectedEvolutionPlugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DirectedEvolutionPluginTest/DirectedEvolutionPluginTest.iml" filepath="$PROJECT_DIR$/DirectedEvolutionPluginTest/DirectedEvolutionPluginTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GeneiousFiles/GeneiousFiles.iml" filepath="$PROJECT_DIR$/GeneiousFiles/GeneiousFiles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HiddenGene/HiddenGene.iml" filepath="$PROJECT_DIR$/HiddenGene/HiddenGene.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HiddenGenePluginTest/HiddenGenePluginTest.iml" filepath="$PROJECT_DIR$/HiddenGenePluginTest/HiddenGenePluginTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestUtils/TestUtils.iml" filepath="$PROJECT_DIR$/TestUtils/TestUtils.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="someJarsFromGeneiousLib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/GeneiousFiles/lib/commons-collections-2.1.jar!/" />
+      <root url="file://$PROJECT_DIR$/GeneiousFiles/lib" />
+      <root url="jar://$PROJECT_DIR$/GeneiousFiles/lib/guava-15.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/GeneiousFiles/lib/jebl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/GeneiousFiles/lib/jdom.jar!/" />
+      <root url="jar://$PROJECT_DIR$/GeneiousFiles/lib/jsr305-1.3.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <NATIVE>
+      <root url="file://$PROJECT_DIR$/GeneiousFiles/lib" />
+    </NATIVE>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/GeneiousFiles/lib" />
+      <root url="jar://$PROJECT_DIR$/GeneiousFiles/lib/jsr305-1.3.9.jar!/" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/GeneiousFiles/lib" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/GeneiousFiles/lib" recursive="false" type="SOURCES" />
+  </library>
+</component>
