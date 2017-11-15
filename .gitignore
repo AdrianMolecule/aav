@@ -26,3 +26,4 @@ hs_err_pid*
 **/GeneiousFiles/
 /geneious-api-javadoc/
 **/geneious-api-javadoc/
+/.idea/workspace.xml
