@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_codonoptim" default="compile.module.codonoptim">
+  <dirname property="module.codonoptim.basedir" file="${ant.file.module_codonoptim}"/>
+
+  <property name="module.jdk.home.codonoptim" value="${jdk.home.1.8}"/>
+  <property name="module.jdk.bin.codonoptim" value="${jdk.bin.1.8}"/>
+  <property name="module.jdk.classpath.codonoptim" value="jdk.classpath.1.8"/>
+
+  <property name="compiler.args.codonoptim" value="-encoding UTF-8 -source 1.8 -target 1.8 ${compiler.args}"/>
+
+  <property name="codonoptim.output.dir" value="${module.codonoptim.basedir}/../out/test/CodonOptim"/>
+  <property name="codonoptim.testoutput.dir" value="${module.codonoptim.basedir}/../out/test/CodonOptim"/>
+
+  <path id="codonoptim.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+
+  <path id="codonoptim.module.production.classpath">
+    <path refid="${module.jdk.classpath.codonoptim}"/>
+    <path refid="library.allgag.classpath"/>
+    <pathelement location="${geneiousfiles.output.dir}"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jdom.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jebl.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/GeneiousPublicAPI.jar"/>
+  </path>
+
+  <path id="codonoptim.runtime.production.module.classpath">
+    <pathelement location="${codonoptim.output.dir}"/>
+    <path refid="library.allgag.classpath"/>
+    <path refid="geneiousfiles.runtime.production.module.classpath"/>
+  </path>
+
+  <path id="codonoptim.module.classpath">
+    <path refid="${module.jdk.classpath.codonoptim}"/>
+    <pathelement location="${codonoptim.output.dir}"/>
+    <path refid="library.allgag.classpath"/>
+    <pathelement location="${geneiousfiles.testoutput.dir}"/>
+    <pathelement location="${geneiousfiles.output.dir}"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jdom.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jebl.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/GeneiousPublicAPI.jar"/>
+  </path>
+
+  <path id="codonoptim.runtime.module.classpath">
+    <pathelement location="${codonoptim.testoutput.dir}"/>
+    <pathelement location="${codonoptim.output.dir}"/>
+    <path refid="library.allgag.classpath"/>
+    <path refid="geneiousfiles.runtime.module.classpath"/>
+  </path>
+
+
+  <patternset id="excluded.from.module.codonoptim">
+    <patternset refid="ignored.files"/>
+  </patternset>
+
+  <patternset id="excluded.from.compilation.codonoptim">
+    <patternset refid="excluded.from.module.codonoptim"/>
+  </patternset>
+
+  <path id="codonoptim.module.sourcepath">
+    <dirset dir="${module.codonoptim.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+
+
+  <target name="compile.module.codonoptim" depends="compile.module.codonoptim.production,compile.module.codonoptim.tests" description="Compile module CodonOptim"/>
+
+  <target name="compile.module.codonoptim.production" depends="register.custom.compilers,compile.module.geneiousfiles" description="Compile module CodonOptim; production classes">
+    <mkdir dir="${codonoptim.output.dir}"/>
+    <javac2 destdir="${codonoptim.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.codonoptim}/javac">
+      <compilerarg line="${compiler.args.codonoptim}"/>
+      <bootclasspath refid="codonoptim.module.bootclasspath"/>
+      <classpath refid="codonoptim.module.production.classpath"/>
+      <src refid="codonoptim.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.codonoptim"/>
+    </javac2>
+
+    <copy todir="${codonoptim.output.dir}">
+      <fileset dir="${module.codonoptim.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+
+  <target name="compile.module.codonoptim.tests" depends="register.custom.compilers,compile.module.codonoptim.production" description="compile module CodonOptim; test classes" unless="skip.tests"/>
+
+  <target name="clean.module.codonoptim" description="cleanup module">
+    <delete dir="${codonoptim.output.dir}"/>
+    <delete dir="${codonoptim.testoutput.dir}"/>
+  </target>
+</project>

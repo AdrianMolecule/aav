@@ -6,7 +6,261 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26d4356a-935f-4cce-bbf6-1d0775731ea5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/.settings/org.eclipse.jdt.core.prefs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eacc.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eacica.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eadenovirus5.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eadenovirus7.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eagrtu.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eaidlav.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eanasp.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eani.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eani_h.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eanidmit.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Earath.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Easn.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eath.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eatu.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eavi.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eazovi.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ebacme.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ebacst.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ebacsu.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ebacsu_high.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ebja.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ebly.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ebme.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ebmo.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ebna.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ebommo.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ebov.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ebovin.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ebovsp.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ebpphx.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ebraja.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ebrana.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ebrare.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ebst.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ebsu.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ebsu_h.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ecac.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ecaeel.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ecal.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ecanal.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ecanfa.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ecaucr.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eccr.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ecel.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Echi.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Echick.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Echicken.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Echisp.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Echk.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Echlre.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Echltr.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Echmp.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Echnt.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Echos.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Echzm.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Echzmrubp.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ecloab.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ecpx.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ecre.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ecrigr.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ecrisp.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ectr.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ecyapa.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Edayhoff.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eddi.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eddi_h.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Edicdi.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Edicdi_high.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Edog.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Edro.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Edro_h.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Edrome.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Edrome_high.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Edrosophila.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eeca.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eeco.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eeco_h.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eecoli.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eecoli_high.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eemeni.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eemeni_high.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eemeni_mit.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eerwct.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ef1.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Efish.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Efmdvpolyp.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ehaein.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ehalma.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ehalsa.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eham.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ehha.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ehin.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ehma.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ehorvu.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ehum.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ehuman.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ekla.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eklepn.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eklula.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ekpn.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Elacdl.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ella.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Elyces.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Emac.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Emacfa.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Emaize.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Emaize_chl.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Emam_h.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Emammal_high.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Emanse.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Emarpo_chl.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Emedsa.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Emetth.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Emixlg.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Emouse.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Emsa.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Emse.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Emta.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Emtu.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Emus.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Emussp.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Emva.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Emyctu.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Emze.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Emzecp.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Encr.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eneigo.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eneu.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eneucr.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Engo.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eoncmy.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eoncsp.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eorysa.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eorysa_chl.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Epae.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Epea.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Epet.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Epethy.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Epfa.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ephavu.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ephix174.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ephv.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ephy.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Epig.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eplafa.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Epolyomaa2.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Epombe.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Epombecai.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Epot.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eppu.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eprovu.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Epse.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Epseae.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Epsepu.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Epsesm.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Epsy.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Epvu.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Erab.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Erabbit.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Erabit.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Erabsp.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Erat.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eratsp.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Erca.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Erhile.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Erhime.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Erhm.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Erhoca.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Erhosh.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eric.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Erle.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Erme.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ersp.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Esalsa.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Esalsp.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Esalty.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Esau.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eschma.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eschpo.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eschpo_cai.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eschpo_high.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Esco.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eserma.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Esgi.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Esheep.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eshp.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eshpsp.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Esli.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eslm.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Esma.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Esmi.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Esmu.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Esoltu.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Esoy.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Esoybn.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Espi.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Espiol.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Espn.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Espo.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Espo_h.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Espu.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Esta.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Estaau.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Estrco.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Estrmu.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Estrpn.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Estrpu.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Esty.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Esus.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Esv40.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Esyhsp.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Esynco.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Esyncy.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Esynsp.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Etbr.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Etcr.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eter.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Etetsp.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Etetth.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Etheth.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Etob.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Etobac.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Etobac_chl.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Etobcp.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Etom.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Etrb.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Etrybr.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Etrycr.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Evco.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Evibch.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ewheat.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ewht.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Exel.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Exenla.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Exenopus.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eyeast.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eyeast_cai.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eyeast_high.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eyeast_mit.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eyeastcai.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eyen.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eyeren.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eyerpe.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eysc.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eysc_h.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eyscmt.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eysp.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ezebrafish.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ezma.cut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/module_codonoptim.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/plugin.properties" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HiddenGenePluginTest/lib/picocontainer-2.15-javadoc.jar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
     </list>
     <ignored path="examples.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,104 +298,109 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GenerateOligosOperation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DirectedEvolutionPlugin/src/directedevolution/GenerateOligosOperation.java">
+      <file leaf-file-name="Ehuman.cut" pinned="true" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GeneiousFiles/bundledPlugins/com.biomatters.plugins.codonOptimization.CodonOptimizationPlugin/com/biomatters/plugins/codonOptimization/CUT/Ehuman.cut">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9775">
-              <caret line="612" column="0" lean-forward="false" selection-start-line="612" selection-start-column="0" selection-end-line="612" selection-end-column="0" />
+            <state relative-caret-position="391">
+              <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DirectedEvolutionOperationOptions.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DirectedEvolutionPlugin/src/directedevolution/DirectedEvolutionOperationOptions.java">
+      <file leaf-file-name="CodonOptimizationPlugin.class" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CodonOptimizationPlugin.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="55" column="59" lean-forward="false" selection-start-line="55" selection-start-column="59" selection-end-line="55" selection-end-column="59" />
+            <state relative-caret-position="187">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
-                <element signature="e#8679#8680#0" expanded="true" />
-                <element signature="e#8746#8747#0" expanded="true" />
+                <element signature="e#601#602#0" expanded="true" />
+                <element signature="e#877#878#0" expanded="true" />
+                <element signature="e#908#909#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CrossoverTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CrossoverTest/src/CrossoverTest.java">
+      <file leaf-file-name="CodonOptimizationSequenceAnnotationGenerator.class" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CodonOptimizationSequenceAnnotationGenerator.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="44" column="57" lean-forward="false" selection-start-line="44" selection-start-column="57" selection-end-line="44" selection-end-column="57" />
+            <state relative-caret-position="126">
+              <caret line="108" column="36" lean-forward="true" selection-start-line="108" selection-start-column="36" selection-end-line="108" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BrowserTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CrossoverTest/src/BrowserTest.java">
+      <file leaf-file-name="a.class" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/a.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="56" column="65" lean-forward="false" selection-start-line="56" selection-start-column="65" selection-end-line="56" selection-end-column="65" />
+            <state relative-caret-position="323">
+              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DirectedEvolutionPluginTest/src/directedevolution/MainTest.java">
+      <file leaf-file-name="O.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/GeneiousFiles/iSeek.jar!/com/biomatters/iseek/plugin/O.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1700">
-              <caret line="115" column="0" lean-forward="false" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+            <state relative-caret-position="1598">
+              <caret line="183" column="0" lean-forward="false" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HiddenGenePlugin.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HiddenGene/src/hiddengene/HiddenGenePlugin.java">
+      <file leaf-file-name="CodonOptimizationOptions.class" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CodonOptimizationOptions.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="36" column="11" lean-forward="false" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+            <state relative-caret-position="211">
+              <caret line="195" column="0" lean-forward="false" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
+              <folding>
+                <element signature="e#9816#9817#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Options.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/GeneiousFiles/lib/GeneiousPublicAPI.jar!/com/biomatters/geneious/publicapi/plugin/Options.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7">
+              <caret line="6494" column="0" lean-forward="false" selection-start-line="6494" selection-start-column="0" selection-end-line="6494" selection-end-column="0" />
+              <folding>
+                <element signature="e#247659#247660#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CodonOptim(64 bit).launch" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CodonOptim/CodonOptim(64 bit).launch">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="72" lean-forward="false" selection-start-line="24" selection-start-column="72" selection-end-line="24" selection-end-column="72" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="CodonOptim.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CodonOptim/CodonOptim.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+            <state relative-caret-position="51">
+              <caret line="3" column="39" lean-forward="false" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profiles_settings.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/copyright/profiles_settings.xml">
+      <file leaf-file-name="plugin.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CodonOptim/plugin.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="libForTesting.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/libraries/libForTesting.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestGapOligos.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DirectedEvolutionPluginTest/src/directedevolution/TestGapOligos.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="39" column="59" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="39" selection-end-column="59" />
+            <state relative-caret-position="170">
+              <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -158,15 +417,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>lastInSource</find>
-      <find>l</find>
-      <find>logger</find>
-      <find>boole</find>
-      <find>documents[0].</find>
-      <find>documents[0].g</find>
-      <find>documents[0].ge</find>
-      <find>documents[0].get</find>
-      <find>documents[0].getF</find>
       <find>documents[0].getFi</find>
       <find>documents[0].getFie</find>
       <find>documents[0].getFiel</find>
@@ -188,6 +438,15 @@
       <find>FrameGraphOptions</find>
       <find>select</find>
       <find>option</find>
+      <find>TAC.*15.6</find>
+      <find>ehuman.cu</find>
+      <find>cut.index</find>
+      <find>AAG</find>
+      <find>AAG .*K *0.5</find>
+      <find>/out</find>
+      <find>out</find>
+      <find>x</find>
+      <find>xxx</find>
     </findStrings>
     <replaceStrings>
       <replace>private static void</replace>
@@ -214,6 +473,7 @@
       <dir>C:\genetics\aav\examples\DirectedEvolutionPlugin\src\HiddenGene</dir>
       <dir>C:\genetics\aav\examples\</dir>
       <dir>C:\development\java\jse8u51bits64\jre\lib\rt.jar!\java\util\stream</dir>
+      <dir>C:\genetics\dev\aav\GeneiousFiles</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -227,15 +487,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/DirectedEvolutionPlugin/src/directedevolution/VariantStatistics.java" />
-        <option value="$PROJECT_DIR$/CrossOver/docs/umaryland/references" />
-        <option value="$PROJECT_DIR$/CrossOver/docs/references" />
-        <option value="$PROJECT_DIR$/CrossOver/src/crossover/CrossOverGraphFactory.java" />
-        <option value="$PROJECT_DIR$/CrossOver/docs/umaryland/generate graph.txt" />
-        <option value="$PROJECT_DIR$/CrossOver/src/crossover/ColorChooserButton.java" />
-        <option value="$PROJECT_DIR$/CrossOver/src/crossover/ColorButton.java" />
-        <option value="$PROJECT_DIR$/CrossOver/src/crossover/MaxBag.java" />
-        <option value="$PROJECT_DIR$/CrossOver/src/crossover/utils/Distance.java" />
         <option value="$PROJECT_DIR$/TestUtils/src/TestUtils.java" />
         <option value="$PROJECT_DIR$/DirectedEvolutionPluginTest/src/directedevolution/TestUtils.java" />
         <option value="$PROJECT_DIR$/DirectedEvolutionPluginTest/src/directedevolution/DirectedEvolutionTestUtils.java" />
@@ -278,14 +529,23 @@
         <option value="$PROJECT_DIR$/examples.xml" />
         <option value="$PROJECT_DIR$/examples.properties" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/GeneiousFiles/bundledPlugins/com.biomatters.plugins.emboss.EmbossToolsPlugin/com/biomatters/plugins/emboss/data/CODONS/Ehuman.cut" />
+        <option value="$PROJECT_DIR$/GeneiousFiles/bundledPlugins/com.biomatters.plugins.codonOptimization.CodonOptimizationPlugin/com/biomatters/plugins/codonOptimization/CUT/Ehuman.cut" />
+        <option value="$PROJECT_DIR$/CodonOptim/src/com/biomatters/plugins/codonOptimization/Main.java" />
+        <option value="$PROJECT_DIR$/CodonOptim/src/crossover/CrossOverPlugin.java" />
+        <option value="$PROJECT_DIR$/DirectedEvolutionPlugin/.classpath" />
+        <option value="$PROJECT_DIR$/CodonOptim/plugin.properties" />
+        <option value="$PROJECT_DIR$/CodonOptim/module_codonoptim.xml" />
+        <option value="$PROJECT_DIR$/CodonOptim/.classpath" />
+        <option value="$PROJECT_DIR$/CodonOptim/CodonOptim.iml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1691" />
-    <option name="y" value="93" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="1358" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1176" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -346,7 +606,7 @@
       <showMembers />
       <showModules />
       <showLibraryContents />
-      <hideEmptyPackages />
+      <hideEmptyPackages ProjectPane="false" />
       <abbreviatePackageNames />
       <autoscrollToSource />
       <autoscrollFromSource />
@@ -355,27 +615,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="aav" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CrossOver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aav" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HiddenGenePluginTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aav" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HiddenGenePluginTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="Scratches" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -405,16 +647,95 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="aav" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodonOptim" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aav" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodonOptim" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aav" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodonOptim" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aav" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodonOptim" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="biomatters" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aav" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodonOptim" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="biomatters" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aav" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodonOptim" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="biomatters" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="codonOptimization" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aav" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodonOptim" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aav" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodonOptim" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aav" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodonOptim" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="biomatters" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aav" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodonOptim" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="biomatters" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aav" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodonOptim" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="biomatters" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="codonOptimization" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3689655" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CodonOptim/classes" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="SearchEverywhereHistoryKey" value=".gitignore&#9;null&#9;null&#10;*.ant&#9;FILE&#9;file://D:/downloads/geneious-devkit/geneious-10.0.3-devkit/examples/GeneiousFiles/bundledPlugins/com.biomatters.plugins.annotationTableViewer.AnnotationTableViewerPlugin.jar&#10;renameplugin&#9;FILE&#9;file://D:/downloads/geneious-devkit/geneious-10.0.3-devkit/examples/GeneiousFiles/bundledPlugins/com.biomatters.plugins.batchRename.BatchRenamePlugin.jar&#10;renameplug&#9;FILE&#9;file://D:/downloads/geneious-devkit/geneious-10.0.3-devkit/examples/GeneiousFiles/bundledPlugins/com.biomatters.plugins.batchRename.BatchRenamePlugin.jar" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="JAVA&#10;TEXT" />
@@ -443,11 +764,11 @@
       <recent name="hiddengene" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\genetics\dev\aav\CodonOptim\src\com\biomatters\plugins\codonOptimization\CUT" />
       <recent name="C:\genetics\aav\examples\CrossoverTest\lib" />
       <recent name="C:\genetics\aav\examples\CrossoverTest\docs\fastasFromMarti" />
       <recent name="C:\genetics\aav\examples\CrossoverTest\docs\umaryland" />
       <recent name="C:\genetics\aav\examples\CrossoverTest\docs\paper directory" />
-      <recent name="C:\genetics\aav\examples\CrossoverTest" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="crossover" />
@@ -457,11 +778,11 @@
       <recent name="directedevolution" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\genetics\aav\examples\BrowserTest" />
-      <recent name="C:\genetics\aav\examples\CrossoverTest\docs\fastas and pngs From Marti" />
-      <recent name="C:\genetics\aav\examples\CrossOver\docs\umaryland" />
-      <recent name="C:\genetics\aav\examples" />
-      <recent name="C:\genetics\aav\examples\DirectedEvolutionPlugin\src" />
+      <recent name="C:\genetics\dev\aav\CodonOptim\xxx\com\biomatters\plugins\codonOptimization" />
+      <recent name="C:\genetics\dev\aav\CodonOptim\src" />
+      <recent name="C:\genetics\dev\aav\CodonOptim\classes" />
+      <recent name="C:\genetics\dev\aav\CodonOptim\src\com\biomatters\plugins\codonOptimization" />
+      <recent name="C:\genetics\dev\aav" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="directedevolution" />
@@ -480,7 +801,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestGapOligos">
+  <component name="RunManager" selected="Application.CodonOptim">
     <configuration name="All in CrossoverTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="CrossoverTest" />
@@ -500,6 +821,40 @@
       </option>
       <envs />
       <patterns />
+    </configuration>
+    <configuration name="CodonOptim WIthCrossOverClasses" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="com.biomatters.iseek.application.ISeekMain" />
+      <option name="VM_PARAMETERS" value="-XX:+UseCompressedOops -XX:+UseConcMarkSweepGC -ea -Xss512K -Xms256M -Xmx4100M -XX:MaxPermSize=256M -Djava.util.logging.config.file=no_logging.properties" />
+      <option name="PROGRAM_PARAMETERS" value="extraPlugins=&quot;crossover.CrossOverPlugin&quot;" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$/../GeneiousFiles" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="CodonOptim" />
+      <envs>
+        <env name="LD_LIBRARY_PATH" value="./activation/linux64:./native_libs/linux64" />
+        <env name="DYLD_LIBRARY_PATH" value="./activation/macos:./native_libs/macos" />
+      </envs>
+    </configuration>
+    <configuration name="CodonOptim" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="com.biomatters.iseek.application.ISeekMain" />
+      <option name="VM_PARAMETERS" value="-XX:+UseCompressedOops -XX:+UseConcMarkSweepGC -ea -Xss512K -Xms256M -Xmx4100M -XX:MaxPermSize=256M -Djava.util.logging.config.file=no_logging.properties" />
+      <option name="PROGRAM_PARAMETERS" value="extraPlugins=&quot;com.biomatters.plugins.codonOptimization.CodonOptimizationPlugin&quot;" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$/../GeneiousFiles" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="CodonOptim" />
+      <envs>
+        <env name="LD_LIBRARY_PATH" value="./activation/linux64:./native_libs/linux64" />
+        <env name="DYLD_LIBRARY_PATH" value="./activation/macos:./native_libs/macos" />
+      </envs>
     </configuration>
     <configuration name="CrossoverTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -521,6 +876,25 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.biomatters.plugins.codonOptimization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.biomatters.plugins.codonOptimization.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="CodonOptim" />
+      <envs />
+    </configuration>
     <configuration name="MainTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="HiddenGenePluginTest" />
@@ -528,31 +902,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="directedevolution.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="DirectedEvolutionPluginTest" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="directedevolution" />
-      <option name="MAIN_CLASS_NAME" value="directedevolution.MainTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -734,26 +1083,28 @@
         <property name="newPluginPackagePath" value="." />
       </antsettings>
     </configuration>
-    <list size="11">
+    <list size="13">
       <item index="0" class="java.lang.String" itemvalue="Ant Target.copyPluginAndRenametoAdrianBackTranslation" />
       <item index="1" class="java.lang.String" itemvalue="Ant Target.copyPluginAndRename" />
       <item index="2" class="java.lang.String" itemvalue="Application.HiddenGene (64 bit)" />
       <item index="3" class="java.lang.String" itemvalue="Application.DirectedEvolutionPlugin (64 bit)" />
       <item index="4" class="java.lang.String" itemvalue="Application.CrossOver (64 bit)" />
-      <item index="5" class="java.lang.String" itemvalue="JAR Application.com.biomatters.plugins.batchRename.BatchRenamePlugin.jar" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.CrossoverTest" />
-      <item index="7" class="java.lang.String" itemvalue="JUnit.MainTest" />
-      <item index="8" class="java.lang.String" itemvalue="JUnit.TestGapOligos" />
-      <item index="9" class="java.lang.String" itemvalue="JUnit.MainTest (1)" />
-      <item index="10" class="java.lang.String" itemvalue="JUnit.All in CrossoverTest" />
+      <item index="5" class="java.lang.String" itemvalue="Application.CodonOptim" />
+      <item index="6" class="java.lang.String" itemvalue="Application.CodonOptim WIthCrossOverClasses" />
+      <item index="7" class="java.lang.String" itemvalue="JAR Application.com.biomatters.plugins.batchRename.BatchRenamePlugin.jar" />
+      <item index="8" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="9" class="java.lang.String" itemvalue="JUnit.CrossoverTest" />
+      <item index="10" class="java.lang.String" itemvalue="JUnit.TestGapOligos" />
+      <item index="11" class="java.lang.String" itemvalue="JUnit.MainTest (1)" />
+      <item index="12" class="java.lang.String" itemvalue="JUnit.All in CrossoverTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestGapOligos" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.All in CrossoverTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CrossoverTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MainTest (1)" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.MainTest" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestGapOligos" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.All in CrossoverTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CrossoverTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.MainTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -770,20 +1121,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1477308516896</updated>
-    </task>
-    <task id="LOCAL-00039" summary="HiddenGene &#10;&#10;All frames seem to work now including vertical, gradient and anomaly.">
-      <created>1499245434760</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1499245434760</updated>
-    </task>
-    <task id="LOCAL-00040" summary="HiddenGene &#10;Option reorg">
-      <created>1499258412437</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1499258412437</updated>
     </task>
     <task id="LOCAL-00041" summary="added total per frame">
       <created>1499262252206</created>
@@ -1114,7 +1451,21 @@
       <option name="project" value="LOCAL" />
       <updated>1510576591368</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="First commit. Not the newest version 1">
+      <created>1510576625899</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1510576625899</updated>
+    </task>
+    <task id="LOCAL-00089" summary="First commit for codon optim">
+      <created>1510751300827</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1510751300827</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1163,22 +1514,23 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.327451" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28137255" sideWeight="0.4466951" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47549018" sideWeight="0.478145" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47549018" sideWeight="0.50586355" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13725491" sideWeight="0.55597013" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47549018" sideWeight="0.521855" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30882353" sideWeight="0.6982942" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47549018" sideWeight="0.49413645" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46666667" sideWeight="0.4978678" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37793177" sideWeight="0.74120957" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26279318" sideWeight="0.74120957" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24946696" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09434968" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30272108" sideWeight="0.63752663" order="3" side_tool="false" content_ui="tabs" x="1014" y="893" width="1920" height="235" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3019608" sideWeight="0.6348614" order="3" side_tool="false" content_ui="tabs" x="1014" y="893" width="1920" height="235" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17324094" sideWeight="0.25879043" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32923368" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1186,7 +1538,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28193" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28137255" sideWeight="0.4488273" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26226014" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="2485" y="877" width="640" height="461" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.022108844" sideWeight="0.6183369" order="1" side_tool="false" content_ui="tabs" />
@@ -1197,7 +1548,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8649573" sideWeight="0.36247334" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47549018" sideWeight="0.50586355" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1206,19 +1557,19 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24946696" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09434968" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30272108" sideWeight="0.63752663" order="3" side_tool="false" content_ui="tabs" x="1014" y="893" width="1920" height="235" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32777777" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28333333" sideWeight="0.4552239" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3019608" sideWeight="0.6348614" order="3" side_tool="false" content_ui="tabs" x="1014" y="893" width="1920" height="235" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.327451" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28137255" sideWeight="0.4466951" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26226014" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="2485" y="877" width="640" height="461" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24829932" sideWeight="0.47867805" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26360545" sideWeight="0.54744136" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30882353" sideWeight="0.6982942" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47549018" sideWeight="0.49413645" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46666667" sideWeight="0.4978678" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14447807" sideWeight="0.74120957" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.022108844" sideWeight="0.6183369" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2521322" sideWeight="0.74120957" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.022108844" sideWeight="0.6183369" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17324094" sideWeight="0.25879043" order="5" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
@@ -1280,8 +1631,6 @@
       <path value="$PROJECT_DIR$/HiddenGene" />
       <path value="$PROJECT_DIR$/TestUtils" />
     </ignored-roots>
-    <MESSAGE value="stats seem to work" />
-    <MESSAGE value="Stats work" />
     <MESSAGE value="some performance issues solved. All seems to work well." />
     <MESSAGE value="minor brushing WORKS. Have to check plugin" />
     <MESSAGE value="refactoring non java files" />
@@ -1305,7 +1654,9 @@
     <MESSAGE value="The toggling of Crossover documents seems to work" />
     <MESSAGE value="The toggling of Crossover documents DOES work" />
     <MESSAGE value="First commit. Not the newest version" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit. Not the newest version" />
+    <MESSAGE value="First commit. Not the newest version 1" />
+    <MESSAGE value="First commit for codon optim" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit for codon optim" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1315,6 +1666,72 @@
           <line>84</line>
           <properties />
           <option name="timeStamp" value="696" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CodonOptimizationSequenceAnnotationGenerator.class</url>
+          <line>113</line>
+          <properties />
+          <option name="timeStamp" value="699" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CodonOptimizationSequenceAnnotationGenerator.class</url>
+          <line>115</line>
+          <properties />
+          <option name="timeStamp" value="700" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CodonOptimizationSequenceAnnotationGenerator.class</url>
+          <line>81</line>
+          <properties />
+          <option name="timeStamp" value="703" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CodonOptimizationOptions.class</url>
+          <line>75</line>
+          <properties />
+          <option name="timeStamp" value="704" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CodonOptimizationOptions.class</url>
+          <line>91</line>
+          <properties />
+          <option name="timeStamp" value="705" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CodonOptimizationPlugin.class</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="706" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CodonOptim/xxx/com/biomatters/plugins/codonOptimization/CodonOptimizationPlugin.class</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="707" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CodonOptim/xxx/com/biomatters/plugins/codonOptimization/CodonOptimizationPlugin.class</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="708" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CodonOptim/xxx/com/biomatters/plugins/codonOptimization/CodonOptimizationPlugin.class</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="711" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CodonOptimizationOptions.class</url>
+          <line>80</line>
+          <properties />
+          <option name="timeStamp" value="713" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CodonOptimizationSequenceAnnotationGenerator.class</url>
+          <line>108</line>
+          <properties />
+          <option name="timeStamp" value="714" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -1330,7 +1747,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="699" />
+      <option name="time" value="715" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -1386,314 +1803,247 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/development/java/jse8u51bits64/src.zip!/java/util/regex/Pattern.java" />
-    <entry file="file://$PROJECT_DIR$/Browser/src/browser/CrossoverModel.java" />
-    <entry file="jar://$PROJECT_DIR$/GeneiousFiles/lib/GeneiousPublicAPI.jar!/com/biomatters/geneious/publicapi/plugin/PluginPreferences.class">
+    <entry file="file://$PROJECT_DIR$/GeneiousFiles/resources/com/biomatters/geneious/common/talkback/shared/pluginsWithAStandaloneVersionInJira.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" column="39" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="39" />
+        <state relative-caret-position="17">
+          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/GeneiousFiles/lib/GeneiousPublicAPI.jar!/com/biomatters/geneious/publicapi/implementations/DefaultAlignmentDocument.class">
+    <entry file="file://$PROJECT_DIR$/GeneiousFiles/bundledPlugins/com.biomatters.plugins.emboss.EmbossToolsPlugin/com/biomatters/plugins/emboss/data/CODONS/Erhosh.cut">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255">
-          <caret line="89" column="13" lean-forward="false" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
+        <state relative-caret-position="629">
+          <caret line="37" column="13" lean-forward="false" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/GeneiousFiles/lib/GeneiousPublicAPI.jar!/com/biomatters/geneious/publicapi/implementations/AlignmentSequence.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="67" column="82" lean-forward="false" selection-start-line="67" selection-start-column="82" selection-end-line="67" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/GeneiousFiles/lib/GeneiousPublicAPI.jar!/com/biomatters/geneious/publicapi/implementations/NucleotideAlignmentSequence.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="14" column="48" lean-forward="false" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestUtils/src/testutils/TestUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/GeneiousFiles/lib/GeneiousPublicAPI.jar!/com/biomatters/geneious/publicapi/documents/sequence/NucleotideSequenceDocument.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="60" lean-forward="true" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/GeneiousFiles/lib/GeneiousPublicAPI.jar!/com/biomatters/geneious/publicapi/documents/PluginDocument.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/GeneiousFiles/lib/GeneiousPublicAPI.jar!/com/biomatters/geneious/publicapi/documents/sequence/SequenceDocument.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/GeneiousFiles/lib/GeneiousPublicAPI.jar!/com/biomatters/geneious/publicapi/implementations/sequence/DefaultSequenceDocument.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="70" column="22" lean-forward="false" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/GeneiousFiles/lib/GeneiousPublicAPI.jar!/com/biomatters/geneious/publicapi/implementations/sequence/DefaultNucleotideSequence.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/development/java/jse8u51bits64/src.zip!/java/lang/CharSequence.java" />
-    <entry file="file://$PROJECT_DIR$/CrossOver/src/crossover/CrossoverPluginOptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="122" lean-forward="false" selection-start-line="13" selection-start-column="122" selection-end-line="13" selection-end-column="122" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/GeneiousFiles/lib/GeneiousPublicAPI.jar!/com/biomatters/geneious/publicapi/plugin/SequenceGraphFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/GeneiousFiles/iSeek.jar!/com/biomatters/iseek/plugin/ak.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExampleDocumentViewer/src/com/biomatters/exampleDocumentViewerPlugin/adrian/IOUtils.java" />
-    <entry file="jar://$PROJECT_DIR$/GeneiousFiles/lib/GeneiousPublicAPI.jar!/com/biomatters/geneious/publicapi/plugin/GeneiousPlugin.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CrossOver/src/crossover/CrossoverModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="135" column="0" lean-forward="false" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CrossOver/src/crossover/TagAsCrossoverOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="25" column="10" lean-forward="false" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/GeneiousFiles/lib/GeneiousPublicAPI.jar!/com/biomatters/geneious/publicapi/documents/DocumentField.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7157">
-          <caret line="508" column="0" lean-forward="false" selection-start-line="508" selection-start-column="0" selection-end-line="508" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DirectedEvolutionPlugin/src/directedevolution/logging/LoginDocumentationOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CrossOver/src/crossover/CrossoverStatistics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/GeneiousFiles/lib/GeneiousPublicAPI.jar!/com/biomatters/geneious/publicapi/plugin/SequenceViewerExtension.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2499">
-          <caret line="196" column="48" lean-forward="false" selection-start-line="196" selection-start-column="48" selection-end-line="196" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DirectedEvolutionPlugin/src/directedevolution/CompareSelectedSequencesOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DirectedEvolutionPlugin/src/directedevolution/SaveOligosOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="35" column="73" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="74" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DirectedEvolutionPlugin/src/directedevolution/DirectedEvolutionPlugin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="48" column="36" lean-forward="false" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java">
+    <entry file="file://$PROJECT_DIR$/GeneiousFiles/bundledPlugins/com.biomatters.plugins.emboss.EmbossToolsPlugin/com/biomatters/plugins/emboss/data/CODONS/Erhile.cut">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CrossOver/src/crossover/CrossoverGraphFactory.java">
+    <entry file="file://$PROJECT_DIR$/GeneiousFiles/bundledPlugins/com.biomatters.plugins.emboss.EmbossToolsPlugin/com/biomatters/plugins/emboss/acd/backtranseq.acd">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="43" column="81" lean-forward="false" selection-start-line="43" selection-start-column="67" selection-end-line="43" selection-end-column="81" />
+        <state relative-caret-position="357">
+          <caret line="21" column="14" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/gen files from emails/directedevolution/GenerateOligosOperation.class" />
-    <entry file="file://$PROJECT_DIR$/DirectedEvolutionPlugin/src/directedevolution/OligoUtils.java">
+    <entry file="file://$PROJECT_DIR$/GeneiousFiles/bundledPlugins/com.biomatters.plugins.emboss.EmbossToolsPlugin/com/biomatters/plugins/emboss/data/CODONS/Cut.index">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="67" column="33" lean-forward="false" selection-start-line="67" selection-start-column="33" selection-end-line="67" selection-end-column="33" />
+        <state relative-caret-position="493">
+          <caret line="29" column="41" lean-forward="false" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CrossOver/src/crossover/CrossOverPlugin.java">
+    <entry file="file://$PROJECT_DIR$/GeneiousFiles/bundledPlugins/com.biomatters.plugins.emboss.EmbossToolsPlugin/com/biomatters/plugins/emboss/data/CODONS/Ehuman.cut">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CrossOver/src/crossover/FrameGraphOptions.java">
+    <entry file="file://$PROJECT_DIR$/GeneiousFiles/bundledPlugins/com.biomatters.plugins.codonOptimization.CodonOptimizationPlugin/com/biomatters/plugins/codonOptimization/CUT/Ebacst.cut">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="35" column="4" lean-forward="false" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CrossOver/src/crossover/CrossoverSequenceGraph.java">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zO43ECE7BF/CodonOptimizationOptions.class" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zE43EB7CEF/CodonOptimizationOptions.class" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zO43ECF98F/CodonOptimizationOptions.class" />
+    <entry file="file://$PROJECT_DIR$/CodonOptim/src/com/biomatters/plugins/codonOptimization/CUT/Ef1.cut">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2210">
-          <caret line="152" column="44" lean-forward="false" selection-start-line="152" selection-start-column="44" selection-end-line="152" selection-end-column="44" />
+        <state relative-caret-position="221">
+          <caret line="13" column="38" lean-forward="true" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodonOptim/src/com/biomatters/plugins/codonOptimization/Main.java" />
+    <entry file="file://$PROJECT_DIR$/CodonOptim/classes/crossover/utils/Distance.class" />
+    <entry file="file://$PROJECT_DIR$/CodonOptim/src/crossover/utils/Distance.java" />
+    <entry file="file://$PROJECT_DIR$/CodonOptim/src/crossover/CrossoverStatistics.java" />
+    <entry file="file://$PROJECT_DIR$/CodonOptim/src/crossover/MoreOptions.java" />
+    <entry file="file://$PROJECT_DIR$/CodonOptim/src/crossover/CrossoverModel.java" />
+    <entry file="file://$PROJECT_DIR$/CodonOptim/src/crossover/CrossoverPluginOptions.java" />
+    <entry file="file://$PROJECT_DIR$/CodonOptim/src/crossover/TagAsCrossoverOperation.java" />
+    <entry file="file://$PROJECT_DIR$/CodonOptim/src/crossover/utils/CrossoverUtils.java" />
+    <entry file="file://$PROJECT_DIR$/CodonOptim/src/crossover/FrameGraphOptions.java" />
+    <entry file="file://$PROJECT_DIR$/CodonOptim/src/crossover/CrossOverPlugin.java" />
+    <entry file="file://$PROJECT_DIR$/CodonOptim/src/crossover/CrossoverGraphFactory.java" />
+    <entry file="file://$PROJECT_DIR$/CrossOver/.classpath">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DirectedEvolutionPlugin/.classpath">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CrossOver/plugin.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/CodonOptim/com/biomatters/plugins/codonOptimization/Main.class" />
+    <entry file="file://$PROJECT_DIR$/CrossOver/classes/crossover/CrossOverPlugin.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DirectedEvolutionPlugin/classes/directedevolution/DirectedEvolutionPlugin.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="27" column="66" lean-forward="false" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HiddenGene/src/hiddengene/HiddenGenePlugin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="36" column="11" lean-forward="false" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/CodonOptim/com/biomatters/plugins/codonOptimization/CodonOptimizationSequenceAnnotationGenerator$a.class" />
+    <entry file="file://$PROJECT_DIR$/GeneiousFiles/bundledPlugins/com.biomatters.plugins.codonOptimization.CodonOptimizationPlugin/com/biomatters/plugins/codonOptimization/CUT/Ehuman.cut">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodonOptim/build.xml" />
+    <entry file="file://$PROJECT_DIR$/CrossoverTest/module_crossovertest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CrossOver/module_crossover.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodonOptim/xxx/com/biomatters/plugins/codonOptimization/CodonOptimizationSequenceAnnotationGenerator.class" />
+    <entry file="file://$PROJECT_DIR$/CodonOptim/x/com/biomatters/plugins/codonOptimization/CodonOptimizationOptions.class" />
+    <entry file="file://$PROJECT_DIR$/CodonOptim/.classpath">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodonOptim/.project">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodonOptim/module_codonoptim.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="51" column="20" lean-forward="false" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodonOptim/plugin.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodonOptim/CodonOptim(64 bit).launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="72" lean-forward="false" selection-start-line="24" selection-start-column="72" selection-end-line="24" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodonOptim/CodonOptim.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="39" lean-forward="false" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodonOptim/xxx/com/biomatters/plugins/codonOptimization/CodonOptimizationOptions.class" />
+    <entry file="file://$PROJECT_DIR$/CodonOptim/xxx/com/biomatters/plugins/codonOptimization/CodonOptimizationPlugin.class" />
+    <entry file="jar://$PROJECT_DIR$/GeneiousFiles/iSeek.jar!/com/biomatters/iseek/plugin/O.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1598">
+          <caret line="183" column="0" lean-forward="false" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CodonOptimizationPlugin.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#908#909#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/GeneiousFiles/lib/GeneiousPublicAPI.jar!/com/biomatters/geneious/publicapi/plugin/Options.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64175">
-          <caret line="4185" column="15" lean-forward="false" selection-start-line="4185" selection-start-column="15" selection-end-line="4185" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DirectedEvolutionPlugin/src/directedevolution/DirectedEvolutionOperationOptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="55" column="59" lean-forward="false" selection-start-line="55" selection-start-column="59" selection-end-line="55" selection-end-column="59" />
+        <state relative-caret-position="-7">
+          <caret line="6494" column="0" lean-forward="false" selection-start-line="6494" selection-start-column="0" selection-end-line="6494" selection-end-column="0" />
           <folding>
-            <element signature="e#8679#8680#0" expanded="true" />
-            <element signature="e#8746#8747#0" expanded="true" />
+            <element signature="e#247659#247660#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CrossoverTest/src/CrossoverTest.java">
+    <entry file="file://$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CodonOptimizationOptions.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="44" column="57" lean-forward="false" selection-start-line="44" selection-start-column="57" selection-end-line="44" selection-end-column="57" />
+        <state relative-caret-position="211">
+          <caret line="195" column="0" lean-forward="false" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
+          <folding>
+            <element signature="e#9816#9817#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/a.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CrossoverTest/src/BrowserTest.java">
+    <entry file="file://$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CodonOptimizationSequenceAnnotationGenerator.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="56" column="65" lean-forward="false" selection-start-line="56" selection-start-column="65" selection-end-line="56" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DirectedEvolutionPlugin/src/directedevolution/GenerateOligosOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9775">
-          <caret line="612" column="0" lean-forward="false" selection-start-line="612" selection-start-column="0" selection-end-line="612" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DirectedEvolutionPluginTest/src/directedevolution/TestGapOligos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="39" column="59" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="39" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples.xml" />
-    <entry file="file://$PROJECT_DIR$/examples.properties" />
-    <entry file="file://$PROJECT_DIR$/DirectedEvolutionPluginTest/DirectedEvolutionPluginTest.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HiddenGenePluginTest/module_hiddengeneplugintest_Tue_Oct_24_22-39-58_AEDT_2017.xml" />
-    <entry file="file://$PROJECT_DIR$/HiddenGenePluginTest/module_hiddengeneplugintest_Mon_Nov_13_20-12-56_AEDT_2017.xml" />
-    <entry file="file://$PROJECT_DIR$/DirectedEvolutionPluginTest/src/directedevolution/MainTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1700">
-          <caret line="115" column="0" lean-forward="false" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CrossOver/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/HiddenGene/src/hiddengene/HiddenGenePlugin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="36" column="11" lean-forward="false" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/copyright/profiles_settings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/libForTesting.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="126">
+          <caret line="108" column="36" lean-forward="true" selection-start-line="108" selection-start-column="36" selection-end-line="108" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -1750,7 +2100,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>CrossoverTest</last-edited>
+          <last-edited>DirectedEvolutionPlugin</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

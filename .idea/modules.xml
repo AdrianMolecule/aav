@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+    <module fileurl="file://$PROJECT_DIR$/CodonOptim/CodonOptim.iml" filepath="$PROJECT_DIR$/CodonOptim/CodonOptim.iml" />
       <module fileurl="file://$PROJECT_DIR$/CrossOver/CrossOver.iml" filepath="$PROJECT_DIR$/CrossOver/CrossOver.iml" />
       <module fileurl="file://$PROJECT_DIR$/CrossoverTest/CrossoverTest.iml" filepath="$PROJECT_DIR$/CrossoverTest/CrossoverTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/DirectedEvolutionPlugin/DirectedEvolutionPlugin.iml" filepath="$PROJECT_DIR$/DirectedEvolutionPlugin/DirectedEvolutionPlugin.iml" />
