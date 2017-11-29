@@ -25,26 +25,19 @@ import static crossover.FrameGraphOptions.COLORS;
 class CrossoverSequenceGraph extends SequenceGraph {
     private CrossoverModel crossoverModel;
     FrameGraphOptions frameGraphOptions;
-    private static Color GRADIENT_BASE_COLOR = Color.RED;//todo this should be final
     final static double THETA = 90.0 * (java.lang.Math.PI / 180.0);
     private Color BACKGROUND_COLOR = Color.WHITE;//todo this should be final
     List<SequenceDocument> realSequences;
 
     static {
-        GRADIENT_BASE_COLOR = Color.RED;
         AffineTransform FONT_AT = new AffineTransform();
         FONT_AT.rotate(THETA);
     }
 
-    AnnotatedPluginDocument annotatedPluginDocument;
     final static double VERTICAL_COVERAGE_OF_BAND = 0.8;
     boolean validGraph = true;
     boolean chimeraIsFirst;
 
-    public CrossoverSequenceGraph(SequenceDocument.Alphabet alphabet) {
-        BACKGROUND_COLOR = Color.WHITE;
-        System.out.println("Old constructor called");
-    }
 
     public CrossoverSequenceGraph(AnnotatedPluginDocument annotatedPluginDocument, boolean chimeraIsFirst) {
         BACKGROUND_COLOR = Color.WHITE;

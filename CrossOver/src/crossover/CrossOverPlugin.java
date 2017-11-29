@@ -16,20 +16,6 @@ public class CrossOverPlugin extends GeneiousPlugin {
     public String getName() {
         return "CrossOverPlugin";
     }
-//    @Override
-//    public List<PluginPreferences> getPluginPreferences() {
-//        return Stream.of(new PluginPreferences() {
-//            @Override
-//            protected Options createOptions() {
-//                return new CrossoverPluginOptions();
-//            }
-//
-//            @Override
-//            public String getTabName() {
-//                return "Crossover Plugin Options";
-//            }
-//        }).collect(Collectors.toList());
-//    }
 
     public String getHelp() {
         return "CrossOverPlugin";
@@ -44,7 +30,7 @@ public class CrossOverPlugin extends GeneiousPlugin {
     }
 
     public String getVersion() {
-        return "1.0";
+        return "2.0";
     }
 
     public String getMinimumApiVersion() {
@@ -57,10 +43,7 @@ public class CrossOverPlugin extends GeneiousPlugin {
 
     public SequenceGraphFactory[] getSequenceGraphFactories() {
         boolean chimeraFirst = true;//((CrossoverPluginOptions) (getPluginPreferences().get(0).getActiveOptions())).isChimeraFirst();
-        return Stream.of(
-                new CrossoverGraphFactory(chimeraFirst)
-        ).
-                toArray(SequenceGraphFactory[]::new);
+        return Stream.of(new CrossoverGraphFactory(chimeraFirst)).toArray(SequenceGraphFactory[]::new);
     }
     //todo would this be better? toArray(SequenceGraphFactory::createDocumentBasedGraphForAlignment());
 
@@ -72,9 +55,9 @@ public class CrossOverPlugin extends GeneiousPlugin {
 
     static boolean shouldNotBeEnabled(AnnotatedPluginDocument annotatedPluginDocument) {
         Object fieldValue = annotatedPluginDocument.getFieldValue(TagAsCrossoverOperation.CROSSOVER_FIELD);
-        if (fieldValue != null && ((Boolean) fieldValue).booleanValue()) {
+        if (fieldValue != null && (Boolean) fieldValue) {
             try {
-                if (( ((DefaultAlignmentDocument) annotatedPluginDocument.getDocument())).getNumberOfSequences() < 3) {
+                if ((((DefaultAlignmentDocument) annotatedPluginDocument.getDocument())).getNumberOfSequences() < 3) {
                     Dialogs.showMessageDialog("For a valid crossover alignment you need to have one resulting sequence and at least two parent sources.");
                     return true;
                 } else {

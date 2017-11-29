@@ -28,7 +28,7 @@ class CrossoverGraphFactory extends SequenceGraphFactory {
 
     @Override
     public SequenceGraph createDocumentBasedGraphForAlignment(AnnotatedPluginDocument annotatedPluginDocument) {
-        CrossoverModel.reset();//todo from class
+        CrossoverModel.reset();
         //System.out.println("in createDocumentBasedGraphForAlignment and isChimeraFirst:" + isChimeraFirst);
         if (CrossOverPlugin.shouldNotBeEnabled(annotatedPluginDocument)) {
             return null;
