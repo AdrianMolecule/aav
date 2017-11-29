@@ -28,19 +28,23 @@ class CrossoverGraphFactory extends SequenceGraphFactory {
 
     @Override
     public SequenceGraph createDocumentBasedGraphForAlignment(AnnotatedPluginDocument annotatedPluginDocument) {
+        CrossoverModel.reset();//todo from class
         //System.out.println("in createDocumentBasedGraphForAlignment and isChimeraFirst:" + isChimeraFirst);
-        if (CrossOverPlugin.shouldNotBeEnabled(annotatedPluginDocument)) return null;
-        try {
-            if (!(annotatedPluginDocument.getDocument() instanceof DefaultAlignmentDocument || ((DefaultAlignmentDocument) annotatedPluginDocument.getDocument()).getSequenceType() != SequenceType.NUCLEOTIDE)) {//needs to be alignment
-                return null; // This graph only appears on alignments
-            }
-            if (((DefaultAlignmentDocument) (annotatedPluginDocument.getDocument())).getSequences().size() < 3) {
-                Dialogs.showMessageDialog("You need to have one resulting chimera and at least two parents.");
-            }
-        } catch (DocumentOperationException e) {
-            e.printStackTrace();
+        if (CrossOverPlugin.shouldNotBeEnabled(annotatedPluginDocument)) {
             return null;
+        } else {
+            try {
+                if (!(annotatedPluginDocument.getDocument() instanceof DefaultAlignmentDocument || ((DefaultAlignmentDocument) annotatedPluginDocument.getDocument()).getSequenceType() != SequenceType.NUCLEOTIDE)) {//needs to be alignment
+                    return null; // This graph only appears on alignments
+                }
+                if (((DefaultAlignmentDocument) (annotatedPluginDocument.getDocument())).getSequences().size() < 3) {
+                    Dialogs.showMessageDialog("You need to have one resulting chimera and at least two parents.");
+                }
+            } catch (DocumentOperationException e) {
+                e.printStackTrace();
+                return null;
+            }
+            return new CrossoverSequenceGraph(annotatedPluginDocument, isChimeraFirst);
         }
-        return new CrossoverSequenceGraph(annotatedPluginDocument, isChimeraFirst);
     }
 }

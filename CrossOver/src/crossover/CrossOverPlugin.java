@@ -1,7 +1,9 @@
 package crossover;
 
+import com.biomatters.geneious.publicapi.components.Dialogs;
 import com.biomatters.geneious.publicapi.documents.AnnotatedPluginDocument;
 import com.biomatters.geneious.publicapi.documents.DocumentField;
+import com.biomatters.geneious.publicapi.implementations.DefaultAlignmentDocument;
 import com.biomatters.geneious.publicapi.plugin.*;
 
 import java.util.stream.Stream;
@@ -70,9 +72,17 @@ public class CrossOverPlugin extends GeneiousPlugin {
 
     static boolean shouldNotBeEnabled(AnnotatedPluginDocument annotatedPluginDocument) {
         Object fieldValue = annotatedPluginDocument.getFieldValue(TagAsCrossoverOperation.CROSSOVER_FIELD);
-        //System.out.println("Crossover field value:" + fieldValue);
-        if (fieldValue != null && ((Boolean) fieldValue)) {
-            return false;
+        if (fieldValue != null && ((Boolean) fieldValue).booleanValue()) {
+            try {
+                if (( ((DefaultAlignmentDocument) annotatedPluginDocument.getDocument())).getNumberOfSequences() < 3) {
+                    Dialogs.showMessageDialog("For a valid crossover alignment you need to have one resulting sequence and at least two parent sources.");
+                    return true;
+                } else {
+                    return false;
+                }
+            } catch (DocumentOperationException ex) {
+                return true;
+            }
         } else {
             return true;
         }

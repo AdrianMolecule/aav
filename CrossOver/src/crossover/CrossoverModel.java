@@ -255,6 +255,12 @@ public final class CrossoverModel extends ArrayList<CrossoverModel.Column> {
         }
     }//END Constructor
 
+
+    public static void reset() {
+        System.out.println("Reset was called");
+        instance = null;
+    }
+
     //simple accessors
     int getChimeraSequenceSize() {
         return chimeraSequenceSize;
