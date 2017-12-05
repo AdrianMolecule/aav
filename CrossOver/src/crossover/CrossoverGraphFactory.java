@@ -28,11 +28,11 @@ class CrossoverGraphFactory extends SequenceGraphFactory {
 
     @Override
     public SequenceGraph createDocumentBasedGraphForAlignment(AnnotatedPluginDocument annotatedPluginDocument) {
-        CrossoverModel.reset();
         //System.out.println("in createDocumentBasedGraphForAlignment and isChimeraFirst:" + isChimeraFirst);
         if (CrossOverPlugin.shouldNotBeEnabled(annotatedPluginDocument)) {
             return null;
         } else {
+            CrossoverModel.reset();
             try {
                 if (!(annotatedPluginDocument.getDocument() instanceof DefaultAlignmentDocument || ((DefaultAlignmentDocument) annotatedPluginDocument.getDocument()).getSequenceType() != SequenceType.NUCLEOTIDE)) {//needs to be alignment
                     return null; // This graph only appears on alignments

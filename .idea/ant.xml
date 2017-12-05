@@ -4,6 +4,6 @@
     <buildFile url="file://$PROJECT_DIR$/DirectedEvolutionPlugin/build.xml" />
     <buildFile url="file://$PROJECT_DIR$/HiddenGene/build.xml" />
     <buildFile url="file://$PROJECT_DIR$/CrossOver/build.xml" />
-    <buildFile url="file://$PROJECT_DIR$/CrossOver/build.xml" />
+    <buildFile url="file://$PROJECT_DIR$/adrianAAVAnt.xml" />
   </component>
 </project>

@@ -41,15 +41,15 @@ public class TagAsCrossoverOperation extends DocumentOperation {
     @Override
     public List<AnnotatedPluginDocument> performOperation(AnnotatedPluginDocument[] documents, ProgressListener progressListener, Options options, SequenceSelection sequenceSelection) throws DocumentOperationException {
         for (AnnotatedPluginDocument document : documents) {
+            CrossoverModel.reset();
             Object fieldValue = document.getFieldValue(CROSSOVER_FIELD);
-            if (fieldValue == null) {
+            if (fieldValue == null || (!((boolean) fieldValue))) {
                 document.setFieldValue(CROSSOVER_FIELD, true);
                 //System.out.println("setting document:" + documents[0].getName() + " field crossover to true");
             } else if (((boolean) fieldValue)) {
                 document.setFieldValue(CROSSOVER_FIELD, false);
-            } else {
-                document.setFieldValue(CROSSOVER_FIELD, true);
             }
+            document.saveDocument(); //save in all cases in case one changes the order
         }
         return Arrays.asList(documents);
     }

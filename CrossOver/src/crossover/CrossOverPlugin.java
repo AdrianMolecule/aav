@@ -30,7 +30,7 @@ public class CrossOverPlugin extends GeneiousPlugin {
     }
 
     public String getVersion() {
-        return "2.0";
+        return "3.0";
     }
 
     public String getMinimumApiVersion() {
