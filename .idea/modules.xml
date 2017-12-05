@@ -7,6 +7,8 @@
       <module fileurl="file://$PROJECT_DIR$/CrossoverTest/CrossoverTest.iml" filepath="$PROJECT_DIR$/CrossoverTest/CrossoverTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/DirectedEvolutionPlugin/DirectedEvolutionPlugin.iml" filepath="$PROJECT_DIR$/DirectedEvolutionPlugin/DirectedEvolutionPlugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/DirectedEvolutionPluginTest/DirectedEvolutionPluginTest.iml" filepath="$PROJECT_DIR$/DirectedEvolutionPluginTest/DirectedEvolutionPluginTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DumbOptim/DumbOptim.iml" filepath="$PROJECT_DIR$/DumbOptim/DumbOptim.iml" />      
+	<module fileurl="file://$PROJECT_DIR$/ExampleAlignmentOperation/ExampleAlignmentOperation.iml" filepath="$PROJECT_DIR$/ExampleAlignmentOperation/ExampleAlignmentOperation.iml" />      
       <module fileurl="file://$PROJECT_DIR$/GeneiousFiles/GeneiousFiles.iml" filepath="$PROJECT_DIR$/GeneiousFiles/GeneiousFiles.iml" />
       <module fileurl="file://$PROJECT_DIR$/HiddenGene/HiddenGene.iml" filepath="$PROJECT_DIR$/HiddenGene/HiddenGene.iml" />
       <module fileurl="file://$PROJECT_DIR$/HiddenGenePluginTest/HiddenGenePluginTest.iml" filepath="$PROJECT_DIR$/HiddenGenePluginTest/HiddenGenePluginTest.iml" />
