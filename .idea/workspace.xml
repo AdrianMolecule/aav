@@ -8,7 +8,6 @@
     <list id="8893c241-1f59-4b32-86a0-a5e183d14b94" name="table files" comment="" />
     <list default="true" id="26d4356a-935f-4cce-bbf6-1d0775731ea5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DirectedEvolutionPlugin/plugin.properties" afterPath="$PROJECT_DIR$/DirectedEvolutionPlugin/plugin.properties" />
     </list>
     <ignored path="examples.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -827,13 +826,6 @@
       <option name="presentableId" value="Default" />
       <updated>1477308516896</updated>
     </task>
-    <task id="LOCAL-00049" summary="I think it works. Lengths are good">
-      <created>1499864074335</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1499864074335</updated>
-    </task>
     <task id="LOCAL-00050" summary="with dynamic length calculation">
       <created>1499915186209</created>
       <option name="number" value="00050" />
@@ -1170,7 +1162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661351816811</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="comments">
+      <created>1661352216659</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1661352216659</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1338,7 +1337,6 @@
       <path value="$PROJECT_DIR$/HiddenGene" />
       <path value="$PROJECT_DIR$/TestUtils" />
     </ignored-roots>
-    <MESSAGE value="old one I forgot to add to git" />
     <MESSAGE value="recalculated crossover discounting mutations" />
     <MESSAGE value="bad for 7 388 at 1155" />
     <MESSAGE value="Again bad for 7 388 at 1155 but 9 11 4 work" />
@@ -1363,7 +1361,8 @@
     <MESSAGE value="bumped to 3.0 and replaced Pair with myPair" />
     <MESSAGE value="bumped to 2.0 and cleaned some comments" />
     <MESSAGE value="bumped cleaned some comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="bumped cleaned some comments" />
+    <MESSAGE value="comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="comments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
