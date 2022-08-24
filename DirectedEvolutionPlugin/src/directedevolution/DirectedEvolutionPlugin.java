@@ -43,7 +43,7 @@ public class DirectedEvolutionPlugin extends GeneiousPlugin {
             "  Compare Selected Sequences allows to compare two selected sequences or a selected sequence and a sequence in the clipboard. Works on most sequence types";
 
     public String getAuthors() {
-        return "CMRI Team";
+        return "Adrian F.";
     }
 
     public String getDescription() {
@@ -90,7 +90,7 @@ public class DirectedEvolutionPlugin extends GeneiousPlugin {
     }
 
     public String getVersion() {
-        return "2.3.2";
+        return "2.4.0";
     }
 
     @Override

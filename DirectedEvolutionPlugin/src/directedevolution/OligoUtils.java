@@ -93,7 +93,7 @@ public class OligoUtils {
 //        System.out.println();
 //    }
 
-    public static void fiveAndThereAnnotations(SequenceDocumentWithEditableAnnotations sequence, List<Pair<Integer, Integer>> ends) {
+    public static void fiveAndThereAnnotations(SequenceDocumentWithEditableAnnotations sequence, List<MyPair<Integer, Integer>> ends) {
         List<SequenceAnnotation> annotations = new ArrayList<>(sequence.getSequenceAnnotations());
         ends.forEach(pair -> {
             annotations.add(new SequenceAnnotation("5", SequenceAnnotation.TYPE_UTR_5, new SequenceAnnotationInterval(pair.getKey(), pair.getKey())));

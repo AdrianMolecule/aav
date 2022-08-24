@@ -14,7 +14,6 @@ import com.biomatters.geneious.publicapi.utilities.FileUtilities;
 import com.biomatters.geneious.publicapi.utilities.Interval;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Lists;
-import javafx.util.Pair;
 import jebl.util.ProgressListener;
 import jebl.evolution.sequences.*;
 import org.apache.commons.lang3.StringUtils;
@@ -89,7 +88,7 @@ public class GenerateOligosOperation extends DocumentOperation {
             }
             //Generate optimized sequences and multi purpose annotations
             Integer sequenceIgnoredDuringOptimizationIndex = storedDirectedEvolutionOperationOptions.getSequenceIgnoredDuringOptimization();
-            Pair<List<OptimizedNucleotideSequence>, List<List<OptimizationAnnotationInfo>>> listOptimizedSequencesListOptimizationAnnotationInfosPair = generateOptimizedSequences(finalDocument, sequenceIgnoredDuringOptimizationIndex);
+            MyPair<List<OptimizedNucleotideSequence>, List<List<OptimizationAnnotationInfo>>> listOptimizedSequencesListOptimizationAnnotationInfosPair = generateOptimizedSequences(finalDocument, sequenceIgnoredDuringOptimizationIndex);
             List<OptimizedNucleotideSequence> optimizedNucleotideSequences = listOptimizedSequencesListOptimizationAnnotationInfosPair.getKey();// calculate and add codon changed sequences
             List<List<OptimizationAnnotationInfo>> optimizationAnnotationInfoList = listOptimizedSequencesListOptimizationAnnotationInfosPair.getValue();// calculate and add codon changed sequences
             // apply annotations regarding sequences that will be modified on original sequences
@@ -122,8 +121,8 @@ public class GenerateOligosOperation extends DocumentOperation {
                     StringBuilder oligosDirect = new StringBuilder();
                     StringBuilder oligosComplement = new StringBuilder();
                     boolean directRow = true;
-                    List<Pair<Integer, Integer>> direct5To3s = new ArrayList<>();
-                    List<Pair<Integer, Integer>> complement5To3s = new ArrayList<>();
+                    List<MyPair<Integer, Integer>> direct5To3s = new ArrayList<>();
+                    List<MyPair<Integer, Integer>> complement5To3s = new ArrayList<>();
                     List<SequenceAnnotation> directAnnotations = new ArrayList<>();
                     List<SequenceAnnotation> complementAnnotations = new ArrayList<>();
                     for (OligoModel oligo : oligos) {
@@ -132,13 +131,13 @@ public class GenerateOligosOperation extends DocumentOperation {
                             OligoUtils.padEnds(oligosDirect, oligo.getStartIndex() - oligosDirect.length());
                             createTotalAnnotationForCompactSequences(oligo.getCharSequence().toString(), oligosDirect.length() + 1, directAnnotations);
                             oligosDirect.append(oligo.getCharSequence());
-                            direct5To3s.add(new Pair<>(oligo.getStartIndex() + 1/*I guess annotation indexes are 1 based*/, oligo.getStartIndex() + oligo.getCharSequence().length()));
+                            direct5To3s.add(new MyPair<>(oligo.getStartIndex() + 1/*I guess annotation indexes are 1 based*/, oligo.getStartIndex() + oligo.getCharSequence().length()));
                             directRow = false;
                         } else {// complements
                             OligoUtils.padEnds(oligosComplement, oligo.getStartIndex() - oligosComplement.length());
                             createTotalAnnotationForCompactSequences(oligo.getCharSequence().toString(), oligosComplement.length() + 1, complementAnnotations);
                             oligosComplement.append(oligo.getCharSequence());
-                            complement5To3s.add(new Pair<>(oligo.getStartIndex() + oligo.getCharSequence().length(), oligo.getStartIndex() + 1/*I guess annotation indexes are 1 based*/));
+                            complement5To3s.add(new MyPair<>(oligo.getStartIndex() + oligo.getCharSequence().length(), oligo.getStartIndex() + 1/*I guess annotation indexes are 1 based*/));
                             directRow = true;
                         }
                     }
@@ -514,7 +513,7 @@ public class GenerateOligosOperation extends DocumentOperation {
         return len;
     }
 
-    public static Pair<List<OptimizedNucleotideSequence>, List<List<OptimizationAnnotationInfo>>> generateOptimizedSequences(DefaultAlignmentDocument copyOfOriginalDefaultAlignmentDocument,
+    public static MyPair<List<OptimizedNucleotideSequence>, List<List<OptimizationAnnotationInfo>>> generateOptimizedSequences(DefaultAlignmentDocument copyOfOriginalDefaultAlignmentDocument,
                                                                                                                              int ignoredSequence) throws Exception {
         // List<SequenceDocument> optimizedSequences = new ArrayList<>(copyOfOriginalDefaultAlignmentDocument.getSequences().size());
         int commonSequenceLength = copyOfOriginalDefaultAlignmentDocument.getSequences().get(0).getSequenceLength();
@@ -605,7 +604,7 @@ public class GenerateOligosOperation extends DocumentOperation {
                         .collect(Collectors.toList());
         copyOfOriginalDefaultAlignmentDocument.getSequences().stream().map(sequence -> Codons.toStateArray(sequence.getSequenceString())).forEach(codonArraysForAllSequences::add);
         Preferences.userRoot().node("com/biomatters/geneious/publicapi/plugin/Options/com/biomatters/geneious/common/consensusSequence/ConsensusOptions").putBoolean("ignoreReadsMappedToMultipleLocations", true);
-        return new Pair<>(optimizedNucleotideSequences, optimizationAnnotationInfosForAllSequencesList);
+        return new MyPair<>(optimizedNucleotideSequences, optimizationAnnotationInfosForAllSequencesList);
     }
 
     private static String calculateNewCodonCode(Map<String, String> finalMap, AminoAcidState acidForCurrentSequenceAtCurrentAminoacidPosition) {
