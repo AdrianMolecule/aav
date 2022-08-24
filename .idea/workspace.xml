@@ -5,272 +5,8 @@
     <option name="CUSTOM_SCOPE_NAME" value="Project Files" />
   </component>
   <component name="ChangeListManager">
-    <list id="8893c241-1f59-4b32-86a0-a5e183d14b94" name="table files" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eacc.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eacica.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eadenovirus5.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eadenovirus7.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eagrtu.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eaidlav.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eanasp.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eani.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eani_h.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eanidmit.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Earath.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Easn.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eath.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eatu.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eavi.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eazovi.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ebacme.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ebacst.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ebacsu.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ebacsu_high.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ebja.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ebly.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ebme.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ebmo.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ebna.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ebommo.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ebov.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ebovin.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ebovsp.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ebpphx.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ebraja.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ebrana.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ebrare.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ebst.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ebsu.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ebsu_h.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ecac.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ecaeel.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ecal.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ecanal.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ecanfa.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ecaucr.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eccr.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ecel.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Echi.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Echick.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Echicken.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Echisp.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Echk.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Echlre.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Echltr.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Echmp.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Echnt.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Echos.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Echzm.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Echzmrubp.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ecloab.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ecpx.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ecre.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ecrigr.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ecrisp.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ectr.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ecyapa.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Edayhoff.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eddi.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eddi_h.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Edicdi.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Edicdi_high.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Edog.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Edro.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Edro_h.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Edrome.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Edrome_high.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Edrosophila.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eeca.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eeco.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eeco_h.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eecoli.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eecoli_high.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eemeni.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eemeni_high.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eemeni_mit.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eerwct.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ef1.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Efish.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Efmdvpolyp.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ehaein.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ehalma.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ehalsa.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eham.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ehha.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ehin.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ehma.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ehorvu.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ehum.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ehuman.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ekla.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eklepn.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eklula.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ekpn.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Elacdl.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ella.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Elyces.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Emac.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Emacfa.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Emaize.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Emaize_chl.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Emam_h.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Emammal_high.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Emanse.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Emarpo_chl.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Emedsa.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Emetth.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Emixlg.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Emouse.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Emsa.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Emse.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Emta.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Emtu.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Emus.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Emussp.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Emva.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Emyctu.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Emze.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Emzecp.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Encr.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eneigo.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eneu.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eneucr.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Engo.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eoncmy.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eoncsp.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eorysa.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eorysa_chl.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Epae.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Epea.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Epet.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Epethy.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Epfa.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ephavu.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ephix174.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ephv.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ephy.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Epig.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eplafa.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Epolyomaa2.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Epombe.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Epombecai.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Epot.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eppu.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eprovu.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Epse.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Epseae.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Epsepu.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Epsesm.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Epsy.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Epvu.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Erab.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Erabbit.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Erabit.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Erabsp.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Erat.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eratsp.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Erca.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Erhile.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Erhime.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Erhm.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Erhoca.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Erhosh.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eric.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Erle.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Erme.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ersp.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Esalsa.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Esalsp.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Esalty.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Esau.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eschma.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eschpo.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eschpo_cai.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eschpo_high.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Esco.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eserma.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Esgi.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Esheep.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eshp.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eshpsp.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Esli.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eslm.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Esma.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Esmi.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Esmu.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Esoltu.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Esoy.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Esoybn.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Espi.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Espiol.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Espn.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Espo.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Espo_h.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Espu.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Esta.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Estaau.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Estrco.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Estrmu.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Estrpn.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Estrpu.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Esty.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Esus.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Esv40.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Esyhsp.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Esynco.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Esyncy.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Esynsp.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Etbr.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Etcr.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eter.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Etetsp.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Etetth.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Etheth.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Etob.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Etobac.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Etobac_chl.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Etobcp.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Etom.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Etrb.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Etrybr.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Etrycr.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Evco.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Evibch.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ewheat.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ewht.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Exel.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Exenla.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Exenopus.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eyeast.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eyeast_cai.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eyeast_high.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eyeast_mit.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eyeastcai.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eyen.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eyeren.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eyerpe.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eysc.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eysc_h.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eyscmt.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Eysp.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ezebrafish.cut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodonOptim/classes/com/biomatters/plugins/codonOptimization/CUT/Ezma.cut" />
-    </list>
-    <list default="true" id="26d4356a-935f-4cce-bbf6-1d0775731ea5" name="Default" comment="bumped to 2.0 and cleaned some comments">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrossOver/docs/Geneious license" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DirectedEvolutionPlugin/src/directedevolution/MyPair.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DirectedEvolutionPlugin/build/DirectedEvolutionPlugin.gplugin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HiddenGenePluginTest/lib/picocontainer-2.15-javadoc.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ant.xml" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CrossoverTest/docs/fastas and pngs From Marti/martiFastaOptimizedChimeraOutput.txt" afterPath="$PROJECT_DIR$/CrossoverTest/docs/fastas and pngs From Marti/martiFastaOptimizedChimeraOutput.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DirectedEvolutionPlugin/plugin.properties" afterPath="$PROJECT_DIR$/DirectedEvolutionPlugin/plugin.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DirectedEvolutionPlugin/src/directedevolution/DirectedEvolutionPlugin.java" afterPath="$PROJECT_DIR$/DirectedEvolutionPlugin/src/directedevolution/DirectedEvolutionPlugin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DirectedEvolutionPlugin/src/directedevolution/GenerateOligosOperation.java" afterPath="$PROJECT_DIR$/DirectedEvolutionPlugin/src/directedevolution/GenerateOligosOperation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DirectedEvolutionPlugin/src/directedevolution/OligoUtils.java" afterPath="$PROJECT_DIR$/DirectedEvolutionPlugin/src/directedevolution/OligoUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DirectedEvolutionPluginTest/src/directedevolution/MainTest.java" afterPath="$PROJECT_DIR$/DirectedEvolutionPluginTest/src/directedevolution/MainTest.java" />
-    </list>
+    <list id="8893c241-1f59-4b32-86a0-a5e183d14b94" name="table files" comment="" />
+    <list default="true" id="26d4356a-935f-4cce-bbf6-1d0775731ea5" name="Default" comment="" />
     <ignored path="examples.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -364,7 +100,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DirectedEvolutionPlugin.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DirectedEvolutionPlugin.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DirectedEvolutionPlugin/src/directedevolution/DirectedEvolutionPlugin.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="78">
@@ -374,11 +110,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plugin.properties" pinned="false" current-in-tab="false">
+      <file leaf-file-name="plugin.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DirectedEvolutionPlugin/plugin.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="41" />
+            <state relative-caret-position="68">
+              <caret line="4" column="110" lean-forward="false" selection-start-line="4" selection-start-column="110" selection-end-line="4" selection-end-column="110" />
               <folding />
             </state>
           </provider>
@@ -536,8 +272,8 @@
         <option value="$PROJECT_DIR$/DirectedEvolutionPluginTest/src/directedevolution/MainTest.java" />
         <option value="$PROJECT_DIR$/DirectedEvolutionPlugin/src/directedevolution/DirectedEvolutionOperationOptions.java" />
         <option value="$PROJECT_DIR$/DirectedEvolutionPlugin/build.xml" />
-        <option value="$PROJECT_DIR$/DirectedEvolutionPlugin/plugin.properties" />
         <option value="$PROJECT_DIR$/DirectedEvolutionPlugin/src/directedevolution/DirectedEvolutionPlugin.java" />
+        <option value="$PROJECT_DIR$/DirectedEvolutionPlugin/plugin.properties" />
       </list>
     </option>
   </component>
@@ -622,21 +358,6 @@
               <item name="aav" type="b2602c69:ProjectViewProjectNode" />
               <item name="DirectedEvolutionPlugin" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="aav" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DirectedEvolutionPlugin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aav" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DirectedEvolutionPlugin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="directedevolution" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aav" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HiddenGenePluginTest" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -678,7 +399,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3689655" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../reverse" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="SearchEverywhereHistoryKey" value=".gitignore&#9;null&#9;null&#10;*.ant&#9;FILE&#9;file://D:/downloads/geneious-devkit/geneious-10.0.3-devkit/examples/GeneiousFiles/bundledPlugins/com.biomatters.plugins.annotationTableViewer.AnnotationTableViewerPlugin.jar&#10;renameplugin&#9;FILE&#9;file://D:/downloads/geneious-devkit/geneious-10.0.3-devkit/examples/GeneiousFiles/bundledPlugins/com.biomatters.plugins.batchRename.BatchRenamePlugin.jar&#10;renameplug&#9;FILE&#9;file://D:/downloads/geneious-devkit/geneious-10.0.3-devkit/examples/GeneiousFiles/bundledPlugins/com.biomatters.plugins.batchRename.BatchRenamePlugin.jar" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="JAVA&#10;TEXT" />
@@ -1103,20 +824,6 @@
       <option name="presentableId" value="Default" />
       <updated>1477308516896</updated>
     </task>
-    <task id="LOCAL-00046" summary="some start on lenghts">
-      <created>1499772593219</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1499772593219</updated>
-    </task>
-    <task id="LOCAL-00047" summary="Almost working with lengths except it puts some double ones because max is wrong">
-      <created>1499777939194</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1499777939194</updated>
-    </task>
     <task id="LOCAL-00048" summary="almost there with lengths. Problem with the last one">
       <created>1499831246827</created>
       <option name="number" value="00048" />
@@ -1446,7 +1153,21 @@
       <option name="project" value="LOCAL" />
       <updated>1512457166652</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="bumped to 3.0 and replaced Pair with myPair">
+      <created>1661349870307</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1661349870321</updated>
+    </task>
+    <task id="LOCAL-00096" summary="bumped to 2.0 and cleaned some comments">
+      <created>1661351304807</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1661351304808</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1502,11 +1223,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49169436" sideWeight="0.31335357" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49169436" sideWeight="0.68664646" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45182723" sideWeight="0.67147195" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45182723" sideWeight="0.67147195" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46666667" sideWeight="0.4978678" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26479515" sideWeight="0.74120957" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26479515" sideWeight="0.74120957" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.021568628" sideWeight="0.6183369" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24886191" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08952959" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1614,7 +1335,6 @@
       <path value="$PROJECT_DIR$/HiddenGene" />
       <path value="$PROJECT_DIR$/TestUtils" />
     </ignored-roots>
-    <MESSAGE value="some more from Maryland U Opt256 4 has bad mutation number" />
     <MESSAGE value="fixed a couple of issues for crossover" />
     <MESSAGE value="old one I forgot to add to git" />
     <MESSAGE value="recalculated crossover discounting mutations" />
@@ -1636,10 +1356,11 @@
     <MESSAGE value="First commit. Not the newest version 1" />
     <MESSAGE value="First commit for codon optim" />
     <MESSAGE value="Reinclude the changes lost in the crash. Now it's fast again. Not sure if the statistics are updated to the latest code." />
-    <MESSAGE value="bumped to 2.0 and cleaned some comments" />
     <MESSAGE value="crossover bumped verison to 3 after I did a better job on refresh" />
     <MESSAGE value="some unnecessary dumb codon optimization projects to be able to step through Geneious code." />
-    <option name="LAST_COMMIT_MESSAGE" value="some unnecessary dumb codon optimization projects to be able to step through Geneious code." />
+    <MESSAGE value="bumped to 3.0 and replaced Pair with myPair" />
+    <MESSAGE value="bumped to 2.0 and cleaned some comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="bumped to 2.0 and cleaned some comments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2150,18 +1871,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DirectedEvolutionPlugin/plugin.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DirectedEvolutionPlugin/src/directedevolution/DirectedEvolutionPlugin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
           <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DirectedEvolutionPlugin/plugin.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="110" lean-forward="false" selection-start-line="4" selection-start-column="110" selection-end-line="4" selection-end-column="110" />
           <folding />
         </state>
       </provider>
