@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_geneiousfiles" default="compile.module.geneiousfiles">
+  <dirname property="module.geneiousfiles.basedir" file="${ant.file.module_geneiousfiles}"/>
+  
+  <property name="module.jdk.home.geneiousfiles" value="${jdk.home.1.8}"/>
+  <property name="module.jdk.bin.geneiousfiles" value="${jdk.bin.1.8}"/>
+  <property name="module.jdk.classpath.geneiousfiles" value="jdk.classpath.1.8"/>
+  
+  <property name="compiler.args.geneiousfiles" value="-encoding UTF-8 -source 8 -target 8 ${compiler.args}"/>
+  
+  <property name="geneiousfiles.output.dir" value="${module.geneiousfiles.basedir}/../out/production/GeneiousFiles"/>
+  <property name="geneiousfiles.testoutput.dir" value="${module.geneiousfiles.basedir}/../out/test/GeneiousFiles"/>
+  
+  <path id="geneiousfiles.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="geneiousfiles.module.production.classpath">
+    <path refid="${module.jdk.classpath.geneiousfiles}"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jdom.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jebl.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/GeneiousPublicAPI.jar"/>
+    <path refid="library.annotations-java8.classpath"/>
+  </path>
+  
+  <path id="geneiousfiles.runtime.production.module.classpath">
+    <pathelement location="${geneiousfiles.output.dir}"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jdom.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jebl.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/GeneiousPublicAPI.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/iSeek.jar"/>
+    <fileset dir="${basedir}/GeneiousFiles/lib">
+      <patternset refid="library.patterns"/>
+    </fileset>
+    <pathelement location="${basedir}/GeneiousFiles/resources"/>
+    <path refid="library.annotations-java8.classpath"/>
+  </path>
+  
+  <path id="geneiousfiles.module.classpath">
+    <path refid="${module.jdk.classpath.geneiousfiles}"/>
+    <pathelement location="${geneiousfiles.output.dir}"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jdom.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jebl.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/GeneiousPublicAPI.jar"/>
+    <path refid="library.annotations-java8.classpath"/>
+  </path>
+  
+  <path id="geneiousfiles.runtime.module.classpath">
+    <pathelement location="${geneiousfiles.testoutput.dir}"/>
+    <pathelement location="${geneiousfiles.output.dir}"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jdom.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jebl.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/GeneiousPublicAPI.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/iSeek.jar"/>
+    <fileset dir="${basedir}/GeneiousFiles/lib">
+      <patternset refid="library.patterns"/>
+    </fileset>
+    <pathelement location="${basedir}/GeneiousFiles/resources"/>
+    <path refid="library.annotations-java8.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.geneiousfiles">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.geneiousfiles">
+    <patternset refid="excluded.from.module.geneiousfiles"/>
+  </patternset>
+  
+  
+  <target name="compile.module.geneiousfiles" depends="compile.module.geneiousfiles.production,compile.module.geneiousfiles.tests" description="Compile module GeneiousFiles"/>
+  
+  <target name="compile.module.geneiousfiles.production" depends="register.custom.compilers" description="Compile module GeneiousFiles; production classes"/>
+  
+  <target name="compile.module.geneiousfiles.tests" depends="register.custom.compilers,compile.module.geneiousfiles.production" description="compile module GeneiousFiles; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.geneiousfiles" description="cleanup module">
+    <delete dir="${geneiousfiles.output.dir}"/>
+    <delete dir="${geneiousfiles.testoutput.dir}"/>
+  </target>
+</project>

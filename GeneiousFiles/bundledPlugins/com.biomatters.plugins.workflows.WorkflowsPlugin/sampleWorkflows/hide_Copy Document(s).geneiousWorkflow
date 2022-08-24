@@ -1,0 +1,17 @@
+<geneiousWorkflows>
+  <XMLSerialisableRootElement name="Copy Document(s)" geneiousVersion="10.0.1" uniqueId="086ddae1-2134-47b7-9e0d-2dcf3f2c433e" revisionNumber="4" description="&lt;html&gt;Duplicates each document and all documents referenced by them. This is useful for example to prevent variant finding saving annotations on to the input sequences of a workflow&lt;/html&gt;">
+    <workflowElement type="com.biomatters.plugins.workflows.WorkflowElementCustomCode">
+      <code>public static List&lt;AnnotatedPluginDocument&gt; performOperation(List&lt;AnnotatedPluginDocument&gt; documents, Options options,
+													  ProgressListener progressListener) throws DocumentOperationException {
+	List&lt;AnnotatedPluginDocument&gt; results = new ArrayList&lt;AnnotatedPluginDocument&gt;();													  
+	for(int i=0;i&lt;documents.size();i++) {
+		if (progressListener.setProgress(i,documents.size()))
+			throw new DocumentOperationException.Canceled();
+		results.add(DocumentUtilities.duplicateDocument(documents.get(i), true));
+	}
+	return results;
+}</code>
+    </workflowElement>
+    <icon>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAq0lEQVR42mNgGLTgd6Paf2RMlgG/Fif+/zU/mgIDFsb//z0vghID4v7/mhNGnAHofgYbsCDm/6/ZIf+xyeHwcxICL0r4/2te1P9fswL//5ri8f93v93/350m/3+36hBpAMj5c8P//5rh9//XJJf/v3qt///uMPr/u0ULtwEYeHbo/1/TfIjzAlYXzQr6/2uqJwWxMNP//6/JbhQYMN33/+9JzuQbQFFSphsAAPJo25j9jWFqAAAAAElFTkSuQmCC</icon>
+  </XMLSerialisableRootElement>
+</geneiousWorkflows>

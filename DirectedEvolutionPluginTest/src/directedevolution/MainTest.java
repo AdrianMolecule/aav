@@ -33,7 +33,7 @@ public class MainTest {
         List<AnnotatedPluginDocument> annotatedPluginDocuments = PluginUtilities.importDocuments(new File("testdata/Translation alignment of 8 sequences for test.geneious"), null);
         DefaultAlignmentDocument defaultAlignmentDocument = ((DefaultAlignmentDocument) annotatedPluginDocuments.get(0).getDocumentOrCrash());
         List<DefaultNucleotideSequence> expectedOptimizedSequences = TestUtils.loadFileSequences(new File("testdata/Optimized sequences for Translation alignment of 8 sequences Expected.fasta"));
-        Pair<List<OptimizedNucleotideSequence>, List<List<GenerateOligosOperation.OptimizationAnnotationInfo>>> listListPair = generateOligosOperation.generateOptimizedSequences(defaultAlignmentDocument, -1);
+        MyPair<List<OptimizedNucleotideSequence>, List<List<GenerateOligosOperation.OptimizationAnnotationInfo>>> listListPair = generateOligosOperation.generateOptimizedSequences(defaultAlignmentDocument, -1);
         List<OptimizedNucleotideSequence> actualOptimizedSequences = listListPair.getKey();
         for (int index = 0; index < expectedOptimizedSequences.size(); index++) {
             int firstDiff = TestUtils.findFirstDiffIndex(expectedOptimizedSequences.get(index).getSequenceString(), (actualOptimizedSequences.get(index).getSequenceString()));
@@ -63,7 +63,7 @@ public class MainTest {
         DefaultAlignmentDocument defaultAlignmentDocument = ((DefaultAlignmentDocument) annotatedPluginDocuments.get(0).getDocumentOrCrash());
         List<DefaultNucleotideSequence> expectedOptimizedSequences = TestUtils.loadFileSequences(new File("testdata/Optimized sequences for Translation alignment of 8 sequences Expected.fasta"));
         int ignoreSequenceNumber = 7;
-        Pair<List<OptimizedNucleotideSequence>, List<List<GenerateOligosOperation.OptimizationAnnotationInfo>>> listListPair = generateOligosOperation.generateOptimizedSequences(defaultAlignmentDocument, ignoreSequenceNumber);
+        MyPair<List<OptimizedNucleotideSequence>, List<List<GenerateOligosOperation.OptimizationAnnotationInfo>>> listListPair = generateOligosOperation.generateOptimizedSequences(defaultAlignmentDocument, ignoreSequenceNumber);
         List<OptimizedNucleotideSequence> actualOptimizedSequences = listListPair.getKey();
         for (int index = 0; index < expectedOptimizedSequences.size(); index++) {
             //String expectedCodon = "";

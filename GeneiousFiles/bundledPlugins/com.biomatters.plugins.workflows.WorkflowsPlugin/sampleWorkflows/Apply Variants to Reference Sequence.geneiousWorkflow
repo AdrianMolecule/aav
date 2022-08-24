@@ -1,0 +1,15 @@
+<geneiousWorkflows>
+  <XMLSerialisableRootElement name="Apply Variants to Reference Sequence" geneiousVersion="10.0.0" uniqueId="615d6ddc-c4fe-4b03-abd2-c6778e57490c" revisionNumber="3" description="">
+    <workflowElement id="ApplyVariantsOperation" exposeNoOptions="false" exposeAllOptions="true" showButtonForExposedGroup="false" groupNameForExposedOptions="" type="com.biomatters.plugins.workflows.DocumentOperationWorkflowElement">
+      <Options>
+        <option name="createAlignment">false</option>
+        <option name="createAmbiguitiesForRefSeq">true</option>
+        <option name="minVariantFrequencyForNoAmbiguities">80</option>
+        <option name="customComponent1"></option>
+        <option name="getMixedGapAmbiguity">questionMark</option>
+      </Options>
+      <optionToExpose optionName="createAlignment" label="" />
+    </workflowElement>
+    <icon>iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAnElEQVR42mNgGAUDDtz8nvxHxs+9fDHwo6MMGBhdHwgzPGFAxcPDAk/P2+wI/J99kuck9v+enuy3kfEkFfbbtxnYb29jYP8PpLdt8wSrVwGqh+lTmZTLDjSSneE2EqZrJNv6vflv5feednFArgUeXq8GOJJHbk7GCA5sGD2SaWoBzXwwwiP5ORC/QAQJRr6gOJJJsYAakYzVgiEPAA0gr2rGAtllAAAAAElFTkSuQmCC</icon>
+  </XMLSerialisableRootElement>
+</geneiousWorkflows>

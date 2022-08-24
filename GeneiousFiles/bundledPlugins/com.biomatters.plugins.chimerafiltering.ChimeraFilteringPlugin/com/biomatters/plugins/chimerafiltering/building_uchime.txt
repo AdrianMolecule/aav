@@ -1,0 +1,31 @@
+---------------------------------------------------
+Linux
+---------------------------------------------------
+1. Install g++
+2. Navigate to UCHIME source in terminal
+3. Run "make" command
+
+---------------------------------------------------
+Mac
+---------------------------------------------------
+1. Install XCode
+2. Navigate to UCHIME source in terminal
+3. Run "make" command
+
+---------------------------------------------------
+Windows (64-bit)
+---------------------------------------------------
+1. Install 64-bit Cygwin. Packages to install:
+    - make (in Devel group)
+    - gcc-g++ (in Devel group)
+    - Ensure that the "Select required packages"
+      checkbox is checked
+2. Open a Cygwin terminal
+2. Navigate to UCHIME source
+3. Run "make" command
+
+---------------------------------------------------
+Windows (32-bit)
+---------------------------------------------------
+1. Follow the Windows (64-bit) instructions but
+   use 32-bit Cygwin instead of 64-bit

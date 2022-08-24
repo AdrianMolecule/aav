@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_dumboptim" default="compile.module.dumboptim">
+  <dirname property="module.dumboptim.basedir" file="${ant.file.module_dumboptim}"/>
+
+  <property name="module.jdk.home.dumboptim" value="${jdk.home.1.8}"/>
+  <property name="module.jdk.bin.dumboptim" value="${jdk.bin.1.8}"/>
+  <property name="module.jdk.classpath.dumboptim" value="jdk.classpath.1.8"/>
+
+  <property name="compiler.args.dumboptim" value="-encoding UTF-8 -source 1.8 -target 1.8 ${compiler.args}"/>
+
+  <property name="dumboptim.output.dir" value="${module.dumboptim.basedir}/../out/test/DumbOptim"/>
+  <property name="dumboptim.testoutput.dir" value="${module.dumboptim.basedir}/../out/test/DumbOptim"/>
+
+  <path id="dumboptim.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+
+  <path id="dumboptim.module.production.classpath">
+    <path refid="${module.jdk.classpath.dumboptim}"/>
+    <path refid="library.allgag.classpath"/>
+    <pathelement location="${geneiousfiles.output.dir}"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jdom.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jebl.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/GeneiousPublicAPI.jar"/>
+  </path>
+
+  <path id="dumboptim.runtime.production.module.classpath">
+    <pathelement location="${dumboptim.output.dir}"/>
+    <path refid="library.allgag.classpath"/>
+    <path refid="geneiousfiles.runtime.production.module.classpath"/>
+  </path>
+
+  <path id="dumboptim.module.classpath">
+    <path refid="${module.jdk.classpath.dumboptim}"/>
+    <pathelement location="${dumboptim.output.dir}"/>
+    <path refid="library.allgag.classpath"/>
+    <pathelement location="${geneiousfiles.testoutput.dir}"/>
+    <pathelement location="${geneiousfiles.output.dir}"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jdom.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/jebl.jar"/>
+    <pathelement location="${basedir}/GeneiousFiles/lib/GeneiousPublicAPI.jar"/>
+  </path>
+
+  <path id="dumboptim.runtime.module.classpath">
+    <pathelement location="${dumboptim.testoutput.dir}"/>
+    <pathelement location="${dumboptim.output.dir}"/>
+    <path refid="library.allgag.classpath"/>
+    <path refid="geneiousfiles.runtime.module.classpath"/>
+  </path>
+
+
+  <patternset id="excluded.from.module.dumboptim">
+    <patternset refid="ignored.files"/>
+  </patternset>
+
+  <patternset id="excluded.from.compilation.dumboptim">
+    <patternset refid="excluded.from.module.dumboptim"/>
+  </patternset>
+
+  <path id="dumboptim.module.sourcepath">
+    <dirset dir="${module.dumboptim.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+
+
+  <target name="compile.module.dumboptim" depends="compile.module.dumboptim.production,compile.module.dumboptim.tests" description="Compile module DumbOptim"/>
+
+  <target name="compile.module.dumboptim.production" depends="register.custom.compilers,compile.module.geneiousfiles" description="Compile module DumbOptim; production classes">
+    <mkdir dir="${dumboptim.output.dir}"/>
+    <javac2 destdir="${dumboptim.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.dumboptim}/javac">
+      <compilerarg line="${compiler.args.dumboptim}"/>
+      <bootclasspath refid="dumboptim.module.bootclasspath"/>
+      <classpath refid="dumboptim.module.production.classpath"/>
+      <src refid="dumboptim.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.dumboptim"/>
+    </javac2>
+
+    <copy todir="${dumboptim.output.dir}">
+      <fileset dir="${module.dumboptim.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+
+  <target name="compile.module.dumboptim.tests" depends="register.custom.compilers,compile.module.dumboptim.production" description="compile module DumbOptim; test classes" unless="skip.tests"/>
+
+  <target name="clean.module.dumboptim" description="cleanup module">
+    <delete dir="${dumboptim.output.dir}"/>
+    <delete dir="${dumboptim.testoutput.dir}"/>
+  </target>
+</project>
